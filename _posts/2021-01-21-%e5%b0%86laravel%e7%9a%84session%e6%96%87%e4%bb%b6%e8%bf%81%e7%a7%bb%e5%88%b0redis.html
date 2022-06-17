@@ -1,0 +1,72 @@
+---
+layout: post
+status: publish
+published: true
+title: 将Laravel的session文件迁移到Redis
+author:
+  display_name: coco
+  login: coco
+  email: hylwrcool@gmail.com
+  url: ''
+author_login: coco
+author_email: hylwrcool@gmail.com
+wordpress_id: 85
+wordpress_url: https://blog.acwinds.com/?p=85
+date: '2021-01-21 15:22:07 +0800'
+date_gmt: '2021-01-21 07:22:07 +0800'
+categories:
+- 代码人生
+tags:
+- laravel
+- redis
+- session
+comments: []
+---
+<p><!-- wp:image {"align":"center","id":89,"width":394,"height":262,"sizeSlug":"large","linkDestination":"none"} --></p>
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img src="https://blog.acwinds.com/wp-content/uploads/2021/01/mountains-5903352_1280-copy.png" alt="" class="wp-image-89" width="394" height="262"/></figure>
+</div>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Laravel 默认用文件保存 session ，默认的保存目录是 storage/framework/sessions 。</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>如果做负载均衡，需要多台服务器共享同一个 session，否则被分配到其它服务器上的用户将会需要重新登录，这时候需要使用 Redis 作为 session 的存储引擎，如何将现有的文件 session 内容导入到 Redis 中去呢？</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>分析一下 Laravel 在 Redis 存储的方式：</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":87} --></p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://blog.acwinds.com/wp-content/uploads/2021/01/WX20210121-145541@2x-300x97.png" alt="" class="wp-image-87"/></figure>
+</div>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>key是“laravel:”加上sessionid，value是序列化的字符串。</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>于是用一小段python代码将其导入到 Redis：</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:code --></p>
+<pre class="wp-block-code"><code>import redis
+import os
+import sys
+
+path = 'session文件所在目录'
+host = '127.0.0.1'
+port = 6379
+
+r = redis.Redis(host=host, port=port)
+
+files = os.listdir(path)
+for filename in files:
+    content = open(path + filename).read()
+    content = 's:%d:"%s";' % (len(content), content)
+    r.set('laravel:' + filename, content)
+    print r.get('laravel:' + filename)</code></pre>
+<p><!-- /wp:code --></p>
+<p><!-- wp:paragraph --></p>
+<p>搞定，收工。</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>

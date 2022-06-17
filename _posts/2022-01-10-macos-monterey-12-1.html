@@ -1,0 +1,40 @@
+---
+layout: post
+status: publish
+published: true
+title: macOS Monterey 检测不到12.1版本更新的解决方法
+author:
+  display_name: coco
+  login: coco
+  email: hylwrcool@gmail.com
+  url: ''
+author_login: coco
+author_email: hylwrcool@gmail.com
+wordpress_id: 148
+wordpress_url: https://blog.acwinds.com/?p=148
+date: '2022-01-10 22:43:51 +0800'
+date_gmt: '2022-01-10 14:43:51 +0800'
+categories:
+- 代码人生
+- 数码玩家
+tags: []
+comments: []
+---
+<p>自用的 M1芯片 Mac mini，在升级到 macOS Monterey 12.01 的版本后，无法检测到12.1的版本升级。</p>
+<p>表现为，在系统设置的软件更新界面，依然显示最新版本为12.01，而公司的同样配置的一台 mac mini，很便捷就升级到最新的12.1系统。</p>
+<p>[caption id="attachment_149" align="alignnone" width="519"]<a href="https://blog.acwinds.com/wp-content/uploads/2022/01/WX20220110-213106@2x.png"><img class="wp-image-149" src="https://blog.acwinds.com/wp-content/uploads/2022/01/WX20220110-213106@2x-1024x369.png" alt="" width="519" height="187" /></a> 无法检测到12.1的版本升级[/caption]</p>
+<p>&nbsp;</p>
+<p>非常诡异的情况，在网上搜索了一下，不少同学也遇到了这样的问题。研究了一下，解决办法如下：</p>
+<p>1.首先在命令中输入命令：<span class="s1">softwareupdate --list-full-installers<span class="Apple-converted-space"> </span></span></p>
+<p>[caption id="attachment_150" align="alignnone" width="562"]<a href="https://blog.acwinds.com/wp-content/uploads/2022/01/WX20220110-223618@2x.png"><img class=" wp-image-150" src="https://blog.acwinds.com/wp-content/uploads/2022/01/WX20220110-223618@2x.png" alt="" width="562" height="187" /></a> 可以看到，系统是能检测到12.1版本的，但设置界面中无法检测到。[/caption]</p>
+<p>&nbsp;</p>
+<p>2.接下来，输入命令: <span class="s1">softwareupdate --fetch-full-installer --full-installer-version 12.1</span></p>
+<p>[caption id="attachment_151" align="alignnone" width="590"]<a href="https://blog.acwinds.com/wp-content/uploads/2022/01/WX20220110-213124@2x.png"><img class=" wp-image-151" src="https://blog.acwinds.com/wp-content/uploads/2022/01/WX20220110-213124@2x-1024x73.png" alt="" width="590" height="42" /></a> 可以看到，命令行中正在下载12.1版本。[/caption]</p>
+<p>&nbsp;</p>
+<p>3. 100%完成后，重新启动电脑。</p>
+<p>4. 这时候打开系统更新界面，就会发现12.1的更新已经可以正常使用了……</p>
+<p>[caption id="attachment_152" align="alignnone" width="506"]<a href="https://blog.acwinds.com/wp-content/uploads/2022/01/WX20220110-215006@2x.png"><img class=" wp-image-152" src="https://blog.acwinds.com/wp-content/uploads/2022/01/WX20220110-215006@2x-1024x362.png" alt="" width="506" height="179" /></a> 终于可以安装12.1了……[/caption]</p>
+<p>&nbsp;</p>
+<p>非常诡异的问题，你如果遇到了，可以试试我的方案，如果有其它的解决方法，欢迎留言告诉我们。</p>
+<p><audio style="display: none;" controls="controls"></audio></p>
+<p><audio style="display: none;" controls="controls"></audio></p>

@@ -1,0 +1,72 @@
+---
+layout: post
+status: publish
+published: true
+title: 苹果 M1 芯片 Mackbook 安装 php5.x
+author:
+  display_name: coco
+  login: coco
+  email: hylwrcool@gmail.com
+  url: ''
+author_login: coco
+author_email: hylwrcool@gmail.com
+wordpress_id: 105
+wordpress_url: https://blog.acwinds.com/?p=105
+date: '2021-10-30 22:29:06 +0800'
+date_gmt: '2021-10-30 14:29:06 +0800'
+categories:
+- 代码人生
+tags: []
+comments: []
+---
+<p><!-- wp:paragraph --></p>
+<p><img class="wp-image-107" style="width: 750px;" src="https://blog.acwinds.com/wp-content/uploads/2021/10/8389493348_832097.jpeg" alt="" /></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Mac OS Big sur版本内置了PHP7，如果在php7环境下开发和调试非常方便。如果系统中没有找到PHP的话，直接使用brew可以直接安装7~7.4版本的PHP。</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>但目前有一个项目，由于历史原因只能跑在PHP5的版本下面，但是在brew中提供的库中没有找5.x版本的PHP，也尝试直接下载源代码编译，但由于系统的各种原因，无法编译成功。</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>其实使用第三方的brew库可以解决这个问题，比如需要安装php5，可以使用brew查找<span class="s1">shivammathur/php/php@5.6。</span></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>首先输入命令：</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><code>brew tap shivammathur/php</code></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>然后查找一下php库里看看有没有5.x的版本：</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><code>brew search php</code></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":106,"className":"is-style-rounded"} --></p>
+<figure class="wp-block-image is-style-rounded"><img class="wp-image-106" src="https://blog.acwinds.com/wp-content/uploads/2021/10/WX20211030-221321@2x.png" alt="" /></p>
+<figcaption>库里已经有了5.6版本的php，直接安装即可</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>安装命令：</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><code>brew install shivammathur/php/php@5.6</code></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>安装好以后，使用命令启动php5.6：</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><code>brew services start shivammathur/php/php@5.6</code></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>停止php5.6的命令：</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><code>brew services stop shivammathur/php/php@5.6</code></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>打完收工。</p>
+<p><!-- /wp:paragraph --></p>
+<p><audio style="display: none;" controls="controls"></audio></p>

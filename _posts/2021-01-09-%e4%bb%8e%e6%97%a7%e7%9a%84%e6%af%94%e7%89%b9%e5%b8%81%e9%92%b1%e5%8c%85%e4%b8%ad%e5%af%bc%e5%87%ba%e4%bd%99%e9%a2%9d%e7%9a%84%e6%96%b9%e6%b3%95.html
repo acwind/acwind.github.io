@@ -1,0 +1,70 @@
+---
+layout: post
+status: publish
+published: true
+title: 从旧的比特币钱包中导出余额的方法
+author:
+  display_name: coco
+  login: coco
+  email: hylwrcool@gmail.com
+  url: ''
+author_login: coco
+author_email: hylwrcool@gmail.com
+wordpress_id: 57
+wordpress_url: https://blog.acwinds.com/?p=57
+date: '2021-01-09 16:41:29 +0800'
+date_gmt: '2021-01-09 08:41:29 +0800'
+categories:
+- 代码人生
+tags: []
+comments: []
+---
+<p><!-- wp:image {"id":58,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><img src="https://blog.acwinds.com/wp-content/uploads/2021/01/image.png" alt="" class="wp-image-58"/></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>其实自己接触比特币算是很久了，早在十年前刚兴起的时候就用自家的显卡跃跃欲试过，也曾在几十美元价位上还挖到过些许的比特币（小数点后几位）。但终究没有坚持下来，眼看着价格一路走高直到今天。每每想起，扼腕叹息。</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>最近整理旧的台式机电脑文件，发现7年前备份的一些文件里还有当年的wallet.data钱包文件，于是好奇心起想看看钱包里尚有多少余粮……</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>但是如果要重新安装官方的比特币客户端的话，需要下载好几百个G的数据文件，耗时耗力，能否有简便的方法直接将钱包里的余额导出来呢？</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Google研究了一下，还真有。</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>首先，我们需要用一个工具从钱包文件中将相关的私钥导出，这里我们使用一个开源的python脚本，下载地址：</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>将钱包文件（wallet.data）放到脚本的同一目录下，在命令行中执行导出钱包命令：</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:quote --></p>
+<blockquote class="wp-block-quote"><p>python pywallet.py --dumpwallet --datadir=.</p>
+</blockquote>
+<p><!-- /wp:quote --></p>
+<p><!-- wp:paragraph --></p>
+<p>该命令将钱包的详细信息打印在屏幕上，注意其中的<strong>sec</strong>字段，它就是你比特币地址的私钥，只要知道它，就可以操控其中的比特币。</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":59,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><img src="https://blog.acwinds.com/wp-content/uploads/2021/01/image-1.png" alt="" class="wp-image-59"/></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>将sec字段的内容复制下来，一个钱包中可能不止一个sec字段，你需要把它们都保存下来。</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>接下来打开你的比特币钱包App，导入这些地址中的比特币余额，这里我用的是Electrum。</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>在Electrum的菜单中选择Sweep：</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":60,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><img src="https://blog.acwinds.com/wp-content/uploads/2021/01/image-2.png" alt="" class="wp-image-60"/></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>在接下来的界面中，输入你在刚刚钱包中导出的私钥，然后点击Sweep，即可将这些私钥钱包中的比特币转移到新的钱包中了。</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":61,"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} --></p>
+<figure class="wp-block-image size-large is-style-default"><img src="https://blog.acwinds.com/wp-content/uploads/2021/01/image-3.png" alt="" class="wp-image-61"/></figure>
+<p><!-- /wp:image --></p>
