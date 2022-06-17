@@ -1,56 +1,53 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: 鱼有愚见 
-email: hylwrcool@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Welcome to Flexton
+description: Flexton is a responsive and ultra-minimal theme for Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: hylwr 
-github_username:  acwind
+url: "flexton.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author
+author-name:    Clayton Hanson
+author-image:   1.jpg
+author-job:     Web Developer
+author-email:   your-email@domain.com # Add your email for contant form.
+author-twitter: artemsheludko_ # Add your twitter account
+about-author:   I am a web developer focusing on front-end development. Always hungry to keep learning.
+
+# Social settings
+social-twitter:   artemsheludko_
+social-facebook:
+social-github:    artemsheludko
+social-pinterest: artemsheludko
+social-instagram: artemsheludko_
+social-youtube:
+social-vk:   
+social-linkedin:
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1
+
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
 
 # Build settings
-remote_theme: pages-themes/dinky@v0.2.0
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
 plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
+  - jekyll-paginate
+
+paginate: 7
+paginate_path: "/page/:num/"
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
