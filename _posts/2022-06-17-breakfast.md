@@ -1,22 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: 不吃早餐亦无妨——冰淇淋当早餐也不错
-author:
-display_name: coco
-login: coco
-email: hylwrcool@gmail.com
-url: ''
-author_login: coco
-author_email: hylwrcool@gmail.com
-date: '2022-06-17 21:54:54 +0800'
-date_gmt: '2022-06-17 21:54:54 +0800'
-categories:
-- 疯言疯语
-tags: []
-comments: []
 ---
+
 自己是一个不爱吃早饭的人。
 
 很多朋友，早餐是每日的例行公事之一。必须是豆浆配油条、稀饭配包子，亦或是牛奶配面包，反正营养配美味。美其名曰：美好的一天从早餐开始。
