@@ -51,3 +51,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+
+gems:[category-generator]
