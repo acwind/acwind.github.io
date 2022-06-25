@@ -1,7 +1,8 @@
 title: 鱼有愚见 - 数据记事本
-description: 分享我的记录
+description: 发现、分享、创造
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.acwinds.com" # the base hostname & protocol for your site, e.g. http://example.com
+author: 沉默的未知
 
 # Author
 author-name:    CoCo
