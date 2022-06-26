@@ -55,4 +55,6 @@ exclude:
   - vendor
 
 
-gems: [jekyll-feed]
+gems:
+  - jekyll-paginate
+  - jekyll-feed
