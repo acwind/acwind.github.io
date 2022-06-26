@@ -55,4 +55,4 @@ exclude:
   - vendor
 
 
-gems: [category-generator]
+gems: [jekyll-feed]
