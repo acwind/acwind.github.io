@@ -118,7 +118,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -169,7 +169,7 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: google # false (default), "google", "custom"
 
   ## Google Analytics
   google:
