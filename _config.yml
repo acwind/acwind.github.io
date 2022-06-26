@@ -35,8 +35,8 @@ disqus-identifier: acwind
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 plugins:
-  - jekyll-paginate
   - jekyll-feed
+  - jekyll-paginate
 
 paginate: 7
 paginate_path: "/page/:num/"
@@ -57,4 +57,3 @@ exclude:
 
 gems:
   - jekyll-paginate
-  - jekyll-feed
