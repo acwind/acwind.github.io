@@ -55,7 +55,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: acwind/acwind.github.io
 repository_tree: master
 
 
@@ -214,6 +214,7 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+      comment: true
 
 
 ## => Plugins
