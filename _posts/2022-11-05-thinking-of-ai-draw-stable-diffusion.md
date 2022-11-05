@@ -11,6 +11,8 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120007
 
 后来公司组织给很多人都装上了 Stable Diffusion，我也安装使用了一番，效果确实惊人，比起真实的动漫和游戏原画作品，有"过之而无不及"的感受，但在使用的过程中也发现了不少值得商榷的地方，于是记录一二。
 
+下面的几张图就是我用 Stable Diffusion 生成的二次元 AI 画作，效果非常超出预期。
+
 ![我的随手AI作画](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/tmp4j9dbj2w.png)
 
 第一点，角色设计的可持续性。
