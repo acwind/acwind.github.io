@@ -26,8 +26,6 @@ titles:
 key: page-about
 ---
 
-# 中年大叔
-
 - 邮箱： hylwrcool@gmail.com
 - Twitter: [https://twitter.com/hylwr](https://twitter.com/hylwr)
 - Side Project：[https://www.animesdata.com](https://www.animesdata.com)
