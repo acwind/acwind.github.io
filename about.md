@@ -31,6 +31,10 @@ key: page-about
 - Side Project：[https://www.animesdata.com](https://www.animesdata.com)
 - Instagram： [https://www.instagram.com/acwind](https://www.instagram.com/acwind)
 
+### 我的公众号
+
+<img src="https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/wechat/search.png" width="500" alt="我的公众号-CoCo的小黑屋" title="我的公众号-CoCo的小黑屋" />
+
 ## 我的2022
  - 继续做好本职工作
  - 完善我的side project: https://www.animesdata.com
