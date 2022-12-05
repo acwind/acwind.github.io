@@ -22,7 +22,7 @@
       {%- if site.data.navigation.header -%}
       <nav class="navigation">
         <ul>
-          <li class="navigation__item"><i class="fa-solid fa-rss"></i><a href="/feed.xml">RSS订阅</a>
+          <li class="navigation__item"><a href="/feed.xml">RSS订阅</a>
           {%- for _item in site.data.navigation.header -%}
             {%- include snippets/get-nav-url.html path=_item.url -%}
             {%- assign _nav_url = __return -%}
