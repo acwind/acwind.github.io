@@ -1,6 +1,6 @@
 ---
 
-title:  x509: certificate has expired or is not yet valid
+title: x509 certificate has expired or is not yet valid
 categories:
 - 编程笔记
 key: f49c35ea-1ac7-11ed-861d-0242ac120016
