@@ -160,4 +160,4 @@ def ask_ai():
 
 接下来，您想要创建什么？
 
-<small>由ChatGTP翻译</small>
+<small style="color:gray">由ChatGTP翻译后整理</small>
