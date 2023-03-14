@@ -136,7 +136,7 @@ GPT Index会找到与问题最相关的索引部分 它将把它们与问题结�
 def ask_ai():  
 	index = GPTSimpleVectorIndex.load_from_disk('index.json')  
 	while True:  
-	query = input("你想要问什么问题? ")  
+	query = input("{用户针对我司产品的提问内容}")  
 	response = index.query(query, response_mode="compact")  
 	display(Markdown(f"Response: <b>{response.response}</b>"))
 ```
