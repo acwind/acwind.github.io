@@ -110,6 +110,10 @@ def ask_ai:
 
 
 ```python
+import os
+os.environ["OPENAI_API_KEY"] = '你的OpenAI的 api key'
+from llama_index import GPTSimpleVectorIndex, SimpleDirectoryReader
+
 def construct_index(directory_path):  
 	# set maximum input size  
 	max_input_size = 4096  
@@ -143,6 +147,10 @@ def construct_index(directory_path):
 GPT Index会找到与问题最相关的索引部分 它将把它们与问题结合起来，打包然后发送到GPT-3。 然后，它将打印出响应。
 
 ```python
+import os
+os.environ["OPENAI_API_KEY"] = '你的OpenAI的 api key'
+from llama_index import GPTSimpleVectorIndex, SimpleDirectoryReader
+
 def ask_ai():  
 	index = GPTSimpleVectorIndex.load_from_disk('index.json')  
 	while True:  
@@ -151,6 +159,8 @@ def ask_ai():
 	display(Markdown(f"Response: <b>{response.response}</b>"))
 ```
 GPT对问题的回复就在response.response变量中,你的程序对输出结果进行处理即可。
+
+(译者注:GPT Index 会在函数执行时返回所消耗的token数,我试了一段常见的网站隐私协议文本,前后大概一共消耗了10,000的token)
 
 ### 测试一下  
 
