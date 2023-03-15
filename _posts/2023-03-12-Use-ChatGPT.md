@@ -115,28 +115,11 @@ os.environ["OPENAI_API_KEY"] = '你的OpenAI的 api key'
 from llama_index import GPTSimpleVectorIndex, SimpleDirectoryReader
 
 def construct_index(directory_path):  
-	# set maximum input size  
-	max_input_size = 4096  
-	# set number of output tokens  
-	num_outputs = 256  
-	# set maximum chunk overlap  
-	max_chunk_overlap = 20  
-	# set chunk size limit  
-	chunk_size_limit = 600  
-	  
-	# define LLM  
-	llm_predictor = LLMPredictor(llm=OpenAI(temperature=0, model_name="text-davinci-003", max_tokens=num_outputs))  
-	prompt_helper = PromptHelper(max_input_size, num_outputs, max_chunk_overlap, chunk_size_limit=chunk_size_limit)  
-	  
-	documents = SimpleDirectoryReader({directory_path}).load_data()  
-	  
-	index = GPTSimpleVectorIndex(documents, llm_predictor=llm_predictor, prompt_helper=prompt_helper)  
-	  
-	index.save_to_disk('index.json')  
-	  
-	return index
+	documents = SimpleDirectoryReader(directory_path).load_data()
+	index = GPTSimpleVectorIndex(documents)
+	index.save_to_disk('index.json') 
 ```
-给这个函数一个你资料库的目录作为参数即可,它在当前目录下生成索引文件<b>index.json</b>
+给这个函数你资料库的目录作为参数即可,它在当前目录下生成索引文件<b>index.json</b>
 
 #### 开始问问题
 
@@ -150,9 +133,8 @@ os.environ["OPENAI_API_KEY"] = '你的OpenAI的 api key'
 from llama_index import GPTSimpleVectorIndex, SimpleDirectoryReader
 
 def ask_ai():  
-	index = GPTSimpleVectorIndex.load_from_disk('index.json')  
-	query = input("{用户针对我司产品的提问内容}")  
-	response = index.query(query, response_mode="compact")  
+	index = GPTSimpleVectorIndex.load_from_disk('index.json')
+	response = index.query("{用户针对我司产品的提问内容}")
 	print(response.response)
 ```
 GPT对问题的回复就在response.response变量中,你的程序对输出结果进行处理即可。
@@ -184,4 +166,4 @@ GPT对问题的回复就在response.response变量中,你的程序对输出结�
 
 接下来，您想要创建什么？
 
-<small style="color:gray">由ChatGTP翻译后整理</small>
+<small style="color:gray">由ChatGTP翻译后,进行了二次代码的整理</small>
