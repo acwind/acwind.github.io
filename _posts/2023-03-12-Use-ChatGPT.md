@@ -130,9 +130,7 @@ def construct_index(directory_path):
 	  
 	documents = SimpleDirectoryReader({directory_path}).load_data()  
 	  
-	index = GPTSimpleVectorIndex(  
-	documents, llm_predictor=llm_predictor, prompt_helper=prompt_helper  
-	)  
+	index = GPTSimpleVectorIndex(documents, llm_predictor=llm_predictor, prompt_helper=prompt_helper)  
 	  
 	index.save_to_disk('index.json')  
 	  
@@ -153,10 +151,9 @@ from llama_index import GPTSimpleVectorIndex, SimpleDirectoryReader
 
 def ask_ai():  
 	index = GPTSimpleVectorIndex.load_from_disk('index.json')  
-	while True:  
 	query = input("{用户针对我司产品的提问内容}")  
 	response = index.query(query, response_mode="compact")  
-	display(Markdown(f"Response: <b>{response.response}</b>"))
+	print(response.response)
 ```
 GPT对问题的回复就在response.response变量中,你的程序对输出结果进行处理即可。
 
