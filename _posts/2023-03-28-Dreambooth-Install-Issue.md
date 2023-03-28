@@ -17,16 +17,16 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120020
 
 
 ```bash
-    Initializing dreambooth training。。。
-    Exception initializing accelerator: Accelerator。__init__() got an unexpected keyword argument 'project_dir'
-    提示：Python 运行时抛出了一个异常。请检查疑难解答页面。
-    Restored system models。
+    Initializing dreambooth training...
+    Exception initializing accelerator: Accelerator.__init__() got an unexpected keyword argument 'project_dir'
+    提示：Python 运行时抛出了一个异常.请检查疑难解答页面.
+    Restored system models.
     Duration: 00:00:13
 ```
 
 Google了半天，在dreambooth的官方源代码的讨论区里发现了端倪，有个用户指出可能是Accelerator加速器的版本不对。
 
-解决方法很简单，在Stable Diffusion的根目录下，编辑requirements_versions。txt文件，将accelerate的版本替换成你当前的版本即可，我这里改成0。17。1。
+解决方法很简单，在Stable Diffusion的根目录下，编辑<strong>requirements_versions.txt</strong>文件，将accelerate的版本替换成你当前的版本即可，我这里改成0.17.1。
 
 保存后重新启动webui，dreambooth就正常使用了。
 
