@@ -12,6 +12,9 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120025
 
 在 sb-admin2 中，sidebarToggleTop 组件是一个按钮，用于控制侧边栏的展开和折叠。默认情况下，该组件会触发一个名为 "sidebarToggle" 的自定义事件，在侧边栏的展开和折叠之间进行切换。
 
+![](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/05/SCR-20230517-mx1.png)
+<small>就是这个按钮</small>
+
 为了实现自动隐藏侧边栏的功能，我直接模拟用户点击 sidebarToggleTop 按钮，从而触发该按钮所绑定的点击事件。具体步骤如下：
 
 1. 获取 sidebarToggleTop 元素：
