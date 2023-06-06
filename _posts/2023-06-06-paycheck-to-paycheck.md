@@ -27,3 +27,8 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120027
 > A recent survey found that 60% of Americans are living paycheck to paycheck.（最近的一项调查发现，60%的美国人靠着月薪维持生计。）
 >
 > The government is introducing new policies to help people who are living paycheck to paycheck.（政府正在出台新政策，以帮助那些靠着月薪维持生计的人。）
+
+
+然后用HeyGen的虚拟形象服务，生成了一段讲解的视频。使用的TinyStudio提取视频内容，生成字幕文件，手动校对了一下。最后上传到Youtube，一段英文讲解视频就制作完成了。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rju1drkbODg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
