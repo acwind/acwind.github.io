@@ -10,7 +10,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120031
 
 
 
-![wrap around the finger](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/06/15/blackjackex_KV.jpg)
+![wrap around the finger](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/06/15/WechatIMG845.png)
 《警察世家（Blue Bloods）》Season13 EP17
 
 英语短语"wrap around the finger"是一个常用的口语表达，意思是被某人轻易地控制或影响。这个短语的字面意思是"将某物绕在手指上"，而在实际使用中，它通常是用来描述某人轻易地掌控局面或控制别人的情况。
