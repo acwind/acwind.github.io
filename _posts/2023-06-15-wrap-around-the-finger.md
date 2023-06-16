@@ -21,18 +21,15 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120031
 
 以下是一些使用“wrap around the finger”的例句：
 
-```
+>  1. She's so charming that she can wrap anyone around her finger.  
+>  （她非常迷人，可以轻易地控制任何人。）  
+> 
+>  2. He's a skilled negotiator who knows how to wrap his opponents around his finger.  
+> （他是一位熟练的谈判者，知道如何将对手控制在自己手中。）  
+> 
+>  3. The company's CEO is known for his ability to wrap employees around his finger.  
+> （公司的CEO以他控制员工的能力而闻名。）  
 
- 1. She's so charming that she can wrap anyone around her finger.  
-（她非常迷人，可以轻易地控制任何人。）  
-
- 2. He's a skilled negotiator who knows how to wrap his opponents around his finger.  
-（他是一位熟练的谈判者，知道如何将对手控制在自己手中。）  
-
- 3. The company's CEO is known for his ability to wrap employees around his finger.  
-（公司的CEO以他控制员工的能力而闻名。）  
-
-```
 
 英语中有很多类似的短语，可以用来描述一个人成功地控制或操纵另一个人或情境。以下是一些常用的类似短语：
 
