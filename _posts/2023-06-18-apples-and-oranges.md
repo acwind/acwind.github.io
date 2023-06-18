@@ -19,11 +19,11 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120032
 
 ### 场景例句
 
-> 1. "你不能把这两件事情相提并论，这就像是比较苹果和橙子一样。"（You can't compare these two things, it's like comparing apples and oranges.）
+> 1. "你不能把这两件事情相提并论。"（You can't compare these two things, it's like comparing apples and oranges.）
 > 
-> 2. "我们不能把这两个项目放在一起评估，因为它们是完全不同的，这就像是比较苹果和橙子一样。"（We can't evaluate these two projects together because they are completely different; it's like comparing apples and oranges.）
+> 2. "我们不能把这两个项目放在一起评估，因为它们是完全不同的。"（We can't evaluate these two projects together because they are completely different; it's like comparing apples and oranges.）
 > 
-> 3. "你不能说这个电影比那个电影好，因为它们是两个不同类型的电影，这就像是比较苹果和橙子一样。"（You can't say that this movie is better than that one because they are two different types of movies; it's like comparing apples and oranges.）
+> 3. "你不能说这个电影比那个电影好，因为它们是两个不同类型的电影。"（You can't say that this movie is better than that one because they are two different types of movies; it's like comparing apples and oranges.）
 
 ### 相近用法
 
