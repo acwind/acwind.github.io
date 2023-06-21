@@ -11,9 +11,10 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120034
 
 
 ![break a leg](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/06/21/WechatIMG848.jpg)
+
 <small>《警察世家（Blue Bloods）》Season13 EP21</small>
 
-**Break a leg** 是一句来自英语的成语，通常用于祝愿某人在表演、比赛或者其他需要展示才能的场合取得成功。这个短语据传起源于戏剧界，因为在当时的某些剧院中，戏剧演员之间直接说**good luck**（祝你好运）被认为是不吉利的。所以，演员们用 "break a leg" 作为一种迷信的替代用法，以祝愿对方在舞台上表现出色。
+**Break a leg** 是一句来自英语的俚语，通常用于祝愿某人在表演、比赛或者其他需要展示才能的场合取得成功。这个短语据传起源于戏剧界，因为在当时的某些剧院中，戏剧演员之间直接说**good luck**（祝你好运）被认为是不吉利的。所以，演员们用 "break a leg" 作为一种迷信的替代用法，以祝愿对方在舞台上表现出色。
 
 这里举几个使用**break a leg**的例子:
 
