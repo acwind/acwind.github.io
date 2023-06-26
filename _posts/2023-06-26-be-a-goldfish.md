@@ -27,22 +27,22 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120039
 
 "Be a goldfish" 这个短语可以用在各种场景中，以鼓励人们忘记不愉快的经历，保持乐观。以下是一些使用 "be a goldfish" 的例子：
 
-**<span style="color:#2234D3">工作场景：</span>**
+**<span style="color:#228CD3">工作场景：</span>**
 
 > - Your boss criticized your presentation at the meeting, but don't let that bring you down. Be a goldfish and focus on improving for the next time.
 > （你的老板在会议上批评了你的演示，但不要因此感到沮丧。做个金鱼，专注于下一次的改进。）
 
-**<span style="color:#2234D3">学习场景：</span>**
+**<span style="color:#228CD3">学习场景：</span>**
 
 > - You didn't do well on the last exam, but don't dwell on it. Be a goldfish and study harder for the next test.
 > （你上次考试没考好，但别纠结于此。做个金鱼，为下次考试更努力地学习。）
 
-**<span style="color:#2234D3">个人关系：</span>**
+**<span style="color:#228CD3">个人关系：</span>**
 
 > - Your friend hurt your feelings with a thoughtless comment, but try to be a goldfish and let it go. They didn't mean to upset you.
 > （你的朋友无意中说了一句让你心情不好的话，但试着做个金鱼，放下这件事。他们并无意伤害你。）
 
-**<span style="color:#2234D3">运动场景：</span>**
+**<span style="color:#228CD3">运动场景：</span>**
 
 > - You missed the final shot in the basketball game and your team lost. Be a goldfish, learn from the experience, and come back stronger next time.
 > （你在篮球比赛中错过了最后一投，导致你的团队输掉了比赛。做个金鱼，从经验中学习，下次更强地回来。）
@@ -51,7 +51,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120039
 
 与 "be a goldfish" 相近的词语和表达主要是关于忘记不愉快经历、放下过去以及保持乐观的。这里有一些相关的词语和短语：
 
-**<span style="color:#2234D3">Let it go（放手，放下）</span>**
+**<span style="color:#228CD3">Let it go（放手，放下）</span>**
    
    这个短语用于表示释放对过去事件的纠结，不再为过去的事情烦恼。
 
@@ -60,7 +60,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120039
  > - You need to let it go and focus on your future instead.
  >   （你需要放下过去，专注于你的未来。）
 
-**<span style="color:#2234D3">Move on（继续前进）</span>**
+**<span style="color:#228CD3">Move on（继续前进）</span>**
 
    这个短语表示从过去的经历中走出来，继续前进。
 
@@ -69,7 +69,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120039
  > - It's time to move on and embrace new opportunities.
  > （是时候继续前进，拥抱新的机遇了。）
 
-**<span style="color:#2234D3">Water under the bridge（已成过去的事）</span>**
+**<span style="color:#228CD3">Water under the bridge（已成过去的事）</span>**
 
    这个成语表示某件事已经过去，没有必要再纠结于此。
 
@@ -78,7 +78,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120039
  > - We had an argument, but that's water under the bridge now.
  > （我们曾经发生过争执，但那已经是过去的事了。）
 
-**<span style="color:#2234D3">Turn the page（翻开新篇章）</span>**
+**<span style="color:#228CD3">Turn the page（翻开新篇章）</span>**
 
    这个短语表示结束过去的事情，开始新的生活阶段。
 
