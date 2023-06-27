@@ -12,7 +12,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120039
 
 ![Be a goldfish](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/06/26/WechatIMG849.jpg)
 
-<small>《足球教练（Blue Bloods）》Season3 EP09</small>
+<small>《足球教练（Ted Lasso）》Season3 EP09</small>
 
 "Be a goldfish" 这个短语在某些情况下可以用来表示忘记不愉快的事情，不把过去的负面经历留在心头。这个表达源于金鱼被普遍认为具有短暂的记忆力，尽管科学研究表明金鱼的记忆力并不像人们想象的那么差。
 
@@ -29,22 +29,22 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120039
 
 **<span style="color:#228CD3">工作场景：</span>**
 
-> - Your boss criticized your presentation at the meeting, but don't let that bring you down. Be a goldfish and focus on improving for the next time.
+> Your boss criticized your presentation at the meeting, but don't let that bring you down. Be a goldfish and focus on improving for the next time.
 > （你的老板在会议上批评了你的演示，但不要因此感到沮丧。做个金鱼，专注于下一次的改进。）
 
 **<span style="color:#228CD3">学习场景：</span>**
 
-> - You didn't do well on the last exam, but don't dwell on it. Be a goldfish and study harder for the next test.
+> You didn't do well on the last exam, but don't dwell on it. Be a goldfish and study harder for the next test.
 > （你上次考试没考好，但别纠结于此。做个金鱼，为下次考试更努力地学习。）
 
 **<span style="color:#228CD3">个人关系：</span>**
 
-> - Your friend hurt your feelings with a thoughtless comment, but try to be a goldfish and let it go. They didn't mean to upset you.
+> Your friend hurt your feelings with a thoughtless comment, but try to be a goldfish and let it go. They didn't mean to upset you.
 > （你的朋友无意中说了一句让你心情不好的话，但试着做个金鱼，放下这件事。他们并无意伤害你。）
 
 **<span style="color:#228CD3">运动场景：</span>**
 
-> - You missed the final shot in the basketball game and your team lost. Be a goldfish, learn from the experience, and come back stronger next time.
+> You missed the final shot in the basketball game and your team lost. Be a goldfish, learn from the experience, and come back stronger next time.
 > （你在篮球比赛中错过了最后一投，导致你的团队输掉了比赛。做个金鱼，从经验中学习，下次更强地回来。）
 
 在这些场景中，"be a goldfish" 都是用来鼓励人们释放对过去不愉快经历的纠结，以更积极地面对未来。
@@ -57,7 +57,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120039
 
    例如：
 
- > - You need to let it go and focus on your future instead.
+ > You need to let it go and focus on your future instead.
  >   （你需要放下过去，专注于你的未来。）
 
 **<span style="color:#228CD3">Move on（继续前进）</span>**
@@ -66,7 +66,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120039
 
    例如：
 
- > - It's time to move on and embrace new opportunities.
+ > It's time to move on and embrace new opportunities.
  > （是时候继续前进，拥抱新的机遇了。）
 
 **<span style="color:#228CD3">Water under the bridge（已成过去的事）</span>**
@@ -75,7 +75,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120039
 
    例如：
 
- > - We had an argument, but that's water under the bridge now.
+ > We had an argument, but that's water under the bridge now.
  > （我们曾经发生过争执，但那已经是过去的事了。）
 
 **<span style="color:#228CD3">Turn the page（翻开新篇章）</span>**
@@ -84,7 +84,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120039
 
    例如：
 
- > - After the divorce, she decided to turn the page and start a new life.
+ > After the divorce, she decided to turn the page and start a new life.
  > （离婚后，她决定翻开新篇章，开始新的生活。）
 
 这些词语和表达都与 "be a goldfish" 有相似的意义，它们都鼓励人们不要过分纠结于过去的错误和挫折，而是要积极面对未来。
