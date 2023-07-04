@@ -9,6 +9,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120055
 ---
 
 原文：[HOW TO BE A MORE INTERESTING PERSON](https://barryfralick.com/interesting-person#utm_source=rishikesh.substack.com)
+
 翻译：GPT-4
 
 ![HOW TO BE A MORE INTERESTING PERSON](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/07/04/00006-552925015.jpg)
