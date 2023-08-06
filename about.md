@@ -35,12 +35,15 @@ key: page-about
 
 <img src="https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/wechat/search.png" width="500" alt="我的公众号-CoCo的小黑屋" title="我的公众号-CoCo的小黑屋" />
 
+## 我的2023
+TBD……
+
 ## 我的2022
  - 继续做好本职工作
  - 完善我的side project: https://www.animesdata.com
  - 学习前端开发和服务器运维
 
-## 我的十一月
+## 2022.11
 
 - 11月重庆疫情加重，中旬的时候公司所在大楼封楼，开始居家办公。居家虽然自由，但比起上班，24小时待命的工作状态，上下班之间的界限变得模糊。工作和生活，在家里混杂在一起，着实心累，努力吧。
 - Parsec 是这个月最满意的软件。家里的一台老机器，用它直接远程连接公司的服务器、电脑，处理公务、打游戏，超级方便和流畅，我甚至用它通关了《刺客信条·奥德赛》。~~目前美中不足是，当我用 Windows 系统来远程连接 Mac OS 系统的时候，键位似乎无法映射过去，很多 Mac 下的快捷键组合无法使用~~（问题已经解决，原来Parsec专门有这个设置——Swap keys）。
