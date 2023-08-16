@@ -44,5 +44,4 @@ sudo gem install cocoapods
 pod install
 ```
 
-经过上述步骤后，我成功解决了这个问题，希望这篇文章也能帮助遇到类似问题的你！
-
+打完收工。
