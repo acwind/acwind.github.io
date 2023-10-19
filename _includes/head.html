@@ -17,6 +17,13 @@
 <meta name="twitter:title" content="{%- if __return -%}{{ __return }} - {{ site.title }}{%- else -%}{{ site.title }}{%- endif -%}" />
 <meta name="twitter:site" content="鱼有愚见" />
 
+{% if page.image %}
+<meta name="twitter:image" content="{{ page.image }}" />
+
+{% endif %}
+
+
+
 <link rel="canonical" href="{%- include snippets/page-url.html -%}" />
 
 {%- assign _paths_rss = site.paths.rss | default: site.data.variables.default.paths.rss -%}
