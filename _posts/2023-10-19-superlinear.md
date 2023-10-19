@@ -1,6 +1,7 @@
 ---
 
 title: 超线性回报
+image: https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/10/19/6530e2ab8c826.png
 categories:
 - 译文
 key: f49c35ea-1ac7-11ed-861d-0242ac120100
