@@ -1,8 +1,6 @@
-
 ---
 
 title: Mac OS 上如何批量将 PNG 转换成 JPG
-<!-- image: https://icdb-images.oss-cn-hangzhou.aliyuncs.com/images/blog/2023/running-girl-01.png -->
 categories:
 - 代码人生
 key: f49c35ea-1ac7-11ed-861d-0242ac120104
