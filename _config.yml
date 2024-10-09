@@ -18,9 +18,9 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : https://blog.acwinds.com # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : https://www.cocosdarkwood.com # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : 鱼有愚见
+title   : CoCo的小黑屋
 description: > # this means to ignore newlines until "Language & timezone"
   分享、发现、创造。
 
