@@ -31,11 +31,8 @@ key: page-about
 - Side Project：[https://www.animesdata.com](https://www.animesdata.com)
 - Instagram： [https://www.instagram.com/acwind](https://www.instagram.com/acwind)
 
-### 我的公众号
-
-<img src="https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/wechat/search.png" width="500" alt="我的公众号-CoCo的小黑屋" title="我的公众号-CoCo的小黑屋" />
 
 ### 我的2024
 
-## 2024.09
+#### 2024.09
 - 用年假去了一趟日本，秋叶原新宿涉谷浅草镰仓高校都去了，以后有机会还想多去几次。
