@@ -122,7 +122,7 @@ comments:
 
   ## Disqus
   disqus:
-    shortname: yu-you-yu-jian # the Disqus shortname for the site
+    shortname: # yu-you-yu-jian # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
