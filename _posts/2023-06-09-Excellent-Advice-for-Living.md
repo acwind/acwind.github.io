@@ -8,7 +8,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120028
 
 ---
 
-![Excellent Advice for Living](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/06/Execllent.jpg)
+![Excellent Advice for Living](https://images.animesdata.com/news/2023/06/Execllent.jpg)
 
 凯文·凯利（Kevin Kelly）是一位备受欢迎的作家、技术评论家和未来学家，他以其对科技、文化和社会影响的深刻见解而闻名。他的作品涵盖了许多主题，包括人工智能、虚拟现实、网络文化和数字革命。
 

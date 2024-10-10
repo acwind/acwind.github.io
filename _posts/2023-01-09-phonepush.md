@@ -7,7 +7,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120013
 
 ---
 
-![无所不在的手机通知](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/blog/01125-2161449263.png)
+![无所不在的手机通知](https://images.animesdata.com/other/blog/01125-2161449263.png)
 
 手机上的通知，可以提醒我们不忘记重要的事项，本是一件好事。提醒我定时起床、吃药，家人朋友的重要消息，以及在发生重大事件的时候让我能第一时间反应处理。
 

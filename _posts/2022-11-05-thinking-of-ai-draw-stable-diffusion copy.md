@@ -13,7 +13,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120007
 
 下面的几张图就是我用 Stable Diffusion 生成的二次元 AI 画作，效果非常超出预期。
 
-![我的随手AI作画](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/tmp4j9dbj2w.png)
+![我的随手AI作画](https://images.animesdata.com/other/tmp4j9dbj2w.png)
 
 第一点，角色设计的可持续性。
 
@@ -23,7 +23,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120007
 
 不过，通过模型的训练锁定人物的整体形象，也许能很大程度上解决这个问题。但是训练AI模型所需要的时间和筛选成本，也是应该考虑的一个因素。
 
-![我的随手AI作画](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/tmpihk2h007.png)
+![我的随手AI作画](https://images.animesdata.com/other/tmpihk2h007.png)
 
 其次，语言在很多情况下是比较贫乏的。意境多是内心的感触，所谓此时无声胜有声。并不是直接告诉AI"在雨天撑着油纸伞的女孩"，就能画出戴望舒的《雨巷》，一副好的作品，融入了人文底蕴在其中。
 
@@ -33,7 +33,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120007
 
 好看，只是好看而已，然后就没有别的了。
 
-![我的随手AI作画](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/tmpjz1cpwen.png)
+![我的随手AI作画](https://images.animesdata.com/other/tmpjz1cpwen.png)
 
 诚然，AI作画在很多领域已经可以预见出非常大的潜力了。比如在广告和宣传设计领域，它能在很快的时间内产生一副令人惊艳的作品，满足品牌快速推广的需求。
 

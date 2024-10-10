@@ -8,7 +8,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120019
 ---
 《良医》是一部我非常喜爱的美剧。故事主人公肖恩·墨菲同时患有自闭症和综合症，这使得他在与他人沟通和交流方面面临着挑战。然而，他也因此具备了独特的洞察力和天赋，能够在医学领域做出卓越的贡献。
 
-![](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/blog/202303/SCR-20230326-s1p.jpeg)
+![](https://images.animesdata.com/other/blog/202303/SCR-20230326-s1p.jpeg)
 
 最近的一集中，一位律师关于真相的说法引发了我的思考。
 
@@ -18,13 +18,13 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120019
 
 出人意料的是，肖恩的律师并未采纳这一建议。原因很简单：如果进行病理检测，只有两种可能的结果，要么原告胜诉要么被告胜诉，双方胜率都只有50%。而如果依靠律师的技巧，胜率可能会大幅偏离这一比例。因此，双方宁愿不知道真相，也要争取更高的胜诉几率。
 
-![](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/blog/202303/SCR-20230326-rxh.jpeg)
+![](https://images.animesdata.com/other/blog/202303/SCR-20230326-rxh.jpeg)
 
 在现实生活中，虽然我们都说要追求真理和真相，但多数时候我们内心还是会进行一番概率统计。对于对自己有利的真相，我们当然会竭力争取。而对于对自己不利的真相，并非会持完全相反的态度，只是宁愿让他人去努力追求罢了。
 
 在双方胜率都是50%的博弈状态下，不妨在别的地方各自发挥所长，何必纠缠不休呢？
 
-![](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/blog/202303/SCR-20230326-rwr.jpeg)
+![](https://images.animesdata.com/other/blog/202303/SCR-20230326-rwr.jpeg)
 
 在剧集结尾，胜诉的肖恩高兴地开始进行他一开始就想要的病理检测，这无疑是为了给自己的医术信心一个交代。而对于事情的真相，法院、被告律师以及原告律师似乎都已不再关心……
 

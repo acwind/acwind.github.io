@@ -1,7 +1,7 @@
 ---
 
 title: 我从来没有一个目标
-image: https://icdb-images.oss-cn-hangzhou.aliyuncs.com/images/blog/2023/running-girl-01.png
+image: https://images.animesdata.com/images/blog/2023/running-girl-01.png
 categories:
 - 译文
 key: f49c35ea-1ac7-11ed-861d-0242ac120103
@@ -18,7 +18,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120103
 >
 > 我们可以探索一种更为流动和有机的进步方式，这种方式不依赖于传统的里程碑或终点，而是强调过程中的连续性和灵活性。
 
-<img src="https://icdb-images.oss-cn-hangzhou.aliyuncs.com/images/blog/2023/running-girl-01.png" alt="Running girl" width="400" height="400">
+<img src="https://images.animesdata.com/images/blog/2023/running-girl-01.png" alt="Running girl" width="400" height="400">
 
 我不记得自己曾经有过一个实际的目标。
 

@@ -10,7 +10,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120070
 
 
 
-![Cat Got Your Tongue](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/07/10/SCR-20230710-uktk.jpeg)
+![Cat Got Your Tongue](https://images.animesdata.com/news/2023/07/10/SCR-20230710-uktk.jpeg)
 
 《NCIS》S20E19
 

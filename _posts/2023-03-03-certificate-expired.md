@@ -7,7 +7,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120016
 
 ---
 
-![Laptop](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/blog/02594-1510005657.png)
+![Laptop](https://images.animesdata.com/other/blog/02594-1510005657.png)
 
 最近在一台Linux上跑一个go的程序,一直提示"certificate has expired or is not yet valid is after 2021-09-30"这样的错误。
 

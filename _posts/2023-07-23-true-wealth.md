@@ -10,7 +10,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120078
 
 
 
-![TRUE WEALTH](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/07/23/SCR-20230723-qbgw.jpg)
+![TRUE WEALTH](https://images.animesdata.com/news/2023/07/23/SCR-20230723-qbgw.jpg)
 
 塔勒布是我非常喜欢的作家之一，他的《黑天鹅》《反脆弱》，反复读了很多遍，收获颇多，但是在生活中总是会忘记把理论应用到实践当中。
 

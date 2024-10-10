@@ -8,7 +8,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120030
 
 ---
 
-![It's on the QT](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/06/13/20230613193723.png)
+![It's on the QT](https://images.animesdata.com/news/2023/06/13/20230613193723.png)
 《警察世家（Blue Bloods）》Season13 EP16
 
 "It's on the QT" 是一个英语俚语，意思是“这是秘密”，或者“这是保密的”。QT 在这里是 Quiet 的缩写，表示“安静的、保密的”。这个俚语通常用于表示某件事情需要保密或不能公开，需要在私下里传达或处理。

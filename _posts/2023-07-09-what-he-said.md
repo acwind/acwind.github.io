@@ -10,7 +10,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120068
 
 
 
-![I had you](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/07/09/What-he-said.jpg)
+![I had you](https://images.animesdata.com/news/2023/07/09/What-he-said.jpg)
 
 ### 含义
 

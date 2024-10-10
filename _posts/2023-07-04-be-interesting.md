@@ -12,7 +12,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120055
 
 翻译：GPT-4
 
-![HOW TO BE A MORE INTERESTING PERSON](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/07/04/00006-552925015.jpg)
+![HOW TO BE A MORE INTERESTING PERSON](https://images.animesdata.com/news/2023/07/04/00006-552925015.jpg)
 
 > 我读了巴里·弗拉里克关于如何成为一个有趣的人的有趣文章。简而言之，成为一个有趣的人，你需要做有趣的事情。建立身份资本是一个好的起点，它指的是独特的技能、经验和个性特质。通过不向每个见到的人透露你的生活故事，保持神秘感肯定会引起人们对你的好奇心。此外，发展个人风格、旅行世界、找到有趣的工作和成为规则的例外都是使你成为一个有趣的人的因素。
 > 

@@ -8,7 +8,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120022
 ---
 
 
-![](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/blog/202305/b642ea41-6b7d-4a86-9b37-faa7dc3047cf.png)
+![](https://images.animesdata.com/other/blog/202305/b642ea41-6b7d-4a86-9b37-faa7dc3047cf.png)
 
 在日常生活中，我们不可避免会遇到各种负面情绪，例如焦虑、抑郁、愤怒等等。
 

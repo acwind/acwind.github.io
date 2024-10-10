@@ -1,7 +1,7 @@
 ---
 
 title: 超线性回报
-image: https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/10/19/6530e2ab8c826.png
+image: https://images.animesdata.com/news/2023/10/19/6530e2ab8c826.png
 categories:
 - 译文
 key: f49c35ea-1ac7-11ed-861d-0242ac120100
@@ -17,7 +17,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120100
 >
 > 原文地址：[http://www.paulgraham.com/superlinear.html](ttp://www.paulgraham.com/superlinear.html)
 
-![](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/10/19/6530e2ab8c826.png)
+![](https://images.animesdata.com/news/2023/10/19/6530e2ab8c826.png)
 
 我在小时候对世界的理解中，最重要且不了解的一点就是表现的收益程度是超线性的。教师和教练们总是含蓄地告诉我们收益是线性的。“你得到的，”我千百次听到的说法，“是你付出的。”他们的意思是好的，但这很少是真实的。如果你的产品只有你竞争对手的一半好，你并不会获得一半的客户。你会得不到任何客户，然后你会破产。
 

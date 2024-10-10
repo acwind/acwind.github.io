@@ -7,7 +7,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120009
 
 ---
 
-![远程控制是未来的生存技能之一](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/Pantheon.jpg)
+![远程控制是未来的生存技能之一](https://images.animesdata.com/other/Pantheon.jpg)
 
 11月中旬重庆疫情严重封控，一直在渝北的家中无法出门，我的工作电脑（Mac mini）在另一头江北的小区家里，处于关机状态，两地相隔约10公里。
 

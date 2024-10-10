@@ -26,7 +26,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120092
 
 > Xcode 14.3 is now using a relative path in its symlink for frameworks. Without the -f flag, this relative path would be evaluated relative to the working directory of the script being executed, instead of relative to the framework symlink itself. With the -f flag, it resolves that relative path and returns the full path to the source.
 
-![Command PhaseScriptExecution failed with a nonzero exit code](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/08/16/64dc459d5818f.png)
+![Command PhaseScriptExecution failed with a nonzero exit code](https://images.animesdata.com/news/2023/08/16/64dc459d5818f.png)
 
 ## 解决方法
 

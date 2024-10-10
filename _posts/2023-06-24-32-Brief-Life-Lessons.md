@@ -10,7 +10,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120035
 
 
 
-![break a leg](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/06/21/WechatIMG848.jpg)
+![break a leg](https://images.animesdata.com/news/2023/06/21/WechatIMG848.jpg)
 
 
 > Peter Dufy来自《How Curious!》节目，他在自己32岁生日时编制了一个简短的人生学习清单，内容丰富且易于理解。这个清单包括健康、学习、决策和生活等方面的内容，非常有趣。他将这些清单发布出来，作为对自己多年来所学的反思。

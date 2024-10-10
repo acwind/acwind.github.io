@@ -9,7 +9,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120080
 ---
 
 
-![turn things up to 11](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/07/27/SCR-20230726-rmbl.jpeg)
+![turn things up to 11](https://images.animesdata.com/news/2023/07/27/SCR-20230726-rmbl.jpeg)
 (《 The Flash（闪电侠)》 S03E11 ）
 
 ## 含义（Meaning）

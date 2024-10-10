@@ -7,7 +7,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120008
 
 ---
 
-![波波](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/202211241.jpg)
+![波波](https://images.animesdata.com/other/202211241.jpg)
 
 继上次差一点把波波（我的猫）弄丢之后，最近差一点又让它忍饥挨饿了……
 

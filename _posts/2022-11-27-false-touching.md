@@ -7,7 +7,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120010
 
 ---
 
-![false touching](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/other/tmpb1qcbqcq.png)
+![false touching](https://images.animesdata.com/other/tmpb1qcbqcq.png)
 
 疫情居家办公，独自带一个十二岁的娃儿，每天的灵魂拷问就是，中午或者傍晚时问一句：“这顿想吃点什么？”
 

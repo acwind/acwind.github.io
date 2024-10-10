@@ -10,7 +10,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120039
 
 
 
-![Be a goldfish](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/06/26/WechatIMG849.jpg)
+![Be a goldfish](https://images.animesdata.com/news/2023/06/26/WechatIMG849.jpg)
 
 <small>《足球教练（Ted Lasso）》Season3 EP09</small>
 

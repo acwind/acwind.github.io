@@ -10,7 +10,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120034
 
 
 
-![break a leg](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/06/21/WechatIMG848.jpg)
+![break a leg](https://images.animesdata.com/news/2023/06/21/WechatIMG848.jpg)
 
 <small>《警察世家（Blue Bloods）》Season13 EP21</small>
 

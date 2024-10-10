@@ -10,7 +10,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120032
 
 
 
-![apple and oranges](https://icdb-images.oss-cn-hangzhou.aliyuncs.com/news/2023/06/18/SCR-20230618-mqyf.jpeg)
+![apple and oranges](https://images.animesdata.com/news/2023/06/18/SCR-20230618-mqyf.jpeg)
 <small>《警察世家（Blue Bloods）》Season13 EP20</small>
 
 **Apples and oranges** 是一个英语习语，常用来表达两个事物之间没有可比性或相似性。这个习语通常用于比较两个非常不同的事物，就像比较苹果和橙子一样。因为苹果和橙子具有不同的颜色、口感、形状和味道，所以它们很难进行比较。
