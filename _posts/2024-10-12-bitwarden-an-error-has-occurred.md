@@ -8,7 +8,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120105
 
 ---
 
-![an error has occurred](https://images.animesdata.com/news/2024/10/12/eu56rcpirlod1.jpeg)
+<img src="https://images.animesdata.com.ap-south-1.linodeobjects.com/news/2024/10/12/eu56rcpirlod1.jpeg" width="200" alt="an error has occurred">
 
 Bitwarden 是一款优秀的密码管理工具，支持多设备使用，能帮助用户安全存储各类账号密码。其自建服务器方案可让用户自己掌控数据，增强隐私安全性。
 
