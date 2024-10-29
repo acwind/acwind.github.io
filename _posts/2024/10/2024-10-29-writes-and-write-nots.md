@@ -15,7 +15,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120109
 
 原文链接：[https://www.paulgraham.com/writes.html](https://www.paulgraham.com/writes.html)
 
-<img src="https://images.animesdata.com/news/2024/10/28/2024102901.jpg" width="350" />
+<img src="https://images.animesdata.com/news/2024/10/28/2024102901.jpg" width="500" />
 
 我通常不愿对技术做出预测，但这一个我相当有信心:在未来二十年内，会写作的人将会大幅减少。
 
