@@ -8,7 +8,7 @@ key: f49c35ea-1ac7-11ed-861d-0242ac120114
 
 ---
 
-<img src="https://images.animesdata.com.ap-south-1.linodeobjects.com/news/2024/12/05/python-env.png" width="500" />
+<img src="https://images.animesdata.com/news/2024/12/05/python-env.png" width="500" />
 
 最近捣鼓安装各种工具的时候，python的库之间的版本冲突，导致一些工具无法正常使用，所以研究了一下Python 虚拟环境的使用方法，喊AI写了一个帮助文档，放在这里给自己备忘。
 
