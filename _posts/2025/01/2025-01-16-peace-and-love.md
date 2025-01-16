@@ -2,13 +2,13 @@
 
 title: 肌肉创伤后的恢复，从“RICE”到“PEACE&LOVE”
 categories:
-- 
+- 健身
 key: f49c35ea-1ac7-11ed-861d-0242ac120106
 
 
 ---
 
-# 
+<img src="https://images.animesdata.com/images/blog/2025/01/girls_in_gym_workou.png" width="500" />
 
 在运动或日常活动中，肌肉创伤是很常见的情况。以前，当我们受伤后，大家都熟知的处理方法是RICE原则，即休息（Rest）、冰敷（Ice）、加压（Compress）、抬高（Elevation）。但近年来，随着研究的深入，一种新的处理原则“PEACE&LOVE”逐渐受到关注。
 
