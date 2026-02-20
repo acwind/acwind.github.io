@@ -1,4 +1,3 @@
-
 ---
 
 title: 2 万亿美元的决策思维：Nicolai Tangen 的 22 条认知笔记
