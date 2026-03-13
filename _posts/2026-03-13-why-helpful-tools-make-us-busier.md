@@ -1,6 +1,7 @@
 ---
 title: 当"省时"工具让我们更忙：AI 时代的工作困境
-categories: []
+categories:
+ - 科技思考
 tags: []
 key: helpful-tools-busier
 ---
