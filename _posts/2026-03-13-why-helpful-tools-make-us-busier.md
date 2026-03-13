@@ -1,21 +1,8 @@
 ---
-status: publish
-published: true
 title: 当"省时"工具让我们更忙：AI 时代的工作困境
-author:
-  display_name: coco
-  login: coco
-  email: hylwrcool@gmail.com
-  url: ''
-author_login: coco
-author_email: hylwrcool@gmail.com
-wordpress_id: 137
-wordpress_url: https://www.cocosdarkwood.com/?p=137
-date: '2026-03-13 14:20:00 +0800'
-date_gmt: '2026-03-13 06:20:00 +0800'
 categories: []
 tags: []
-comments: []
+key: helpful-tools-busier
 ---
 
 *你有没有想过，为什么每个声称要"拯救"我们时间的工具，最终都反而占据了更多时间？*
