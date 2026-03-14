@@ -26,9 +26,11 @@ titles:
 key: page-about
 ---
 
-- 邮箱： hylwrcool@gmail.com
+- 📧 邮箱： hylwrcool@gmail.com
 - Twitter: [https://twitter.com/hylwr](https://twitter.com/hylwr)
-- Side Project：[https://www.animesdata.com](https://www.animesdata.com)、[https://www.featherquantum.com](https://www.featherquantum.com)
+- Side Project：
+  - [https://www.animesdata.com](https://www.animesdata.com)
+  - [https://www.featherquantum.com](https://www.featherquantum.com)
 - Instagram： [https://www.instagram.com/acwind](https://www.instagram.com/acwind)
 
 
