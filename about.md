@@ -28,7 +28,7 @@ key: page-about
 
 - 邮箱： hylwrcool@gmail.com
 - Twitter: [https://twitter.com/hylwr](https://twitter.com/hylwr)
-- Side Project：[https://www.animesdata.com](https://www.animesdata.com)
+- Side Project：[https://www.animesdata.com](https://www.animesdata.com)、[https://www.featherquantum.com](https://www.featherquantum.com)
 - Instagram： [https://www.instagram.com/acwind](https://www.instagram.com/acwind)
 
 
@@ -36,3 +36,13 @@ key: page-about
 
 #### 2024.09
 - 用年假去了一趟日本，秋叶原新宿涉谷浅草镰仓高校都去了，以后有机会还想多去几次。
+
+### 我的2025
+
+#### 2025.07
+- 再次出发去了日本，这次主要在东京，打卡了东京塔，夜景真的很美。
+
+### 我的2026
+
+#### 2026.02
+- 去了新加坡和马来西亚，不得不说新加坡作为花园城市真的名不虚传，环境比日本还干净，下次还想再去。
