@@ -1,11 +1,3 @@
----
-title: Insecurities and permeability (不安全感与被影响的程度)
-categories:
- - 科技思考
-tags: []
-key: insecurities-and-permeability
----
-
 序言：我们在群体面前往往容易受到影响，而这种脆弱往往源自我们内心的不安全感。提高自尊、肯定自我价值，才能在这个喧嚣的世界里保持独立的人格。
 原文出处：[Insecurities and permeability](https://alearningaday.blog/2026/04/05/insecurities-and-permeability/)
 
