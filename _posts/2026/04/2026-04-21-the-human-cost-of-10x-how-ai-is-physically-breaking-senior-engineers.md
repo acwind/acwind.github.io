@@ -1,51 +1,47 @@
 ---
-title: "The Human Cost of 10x: How AI Is Physically Breaking Senior Engineers"
+title: "10x AI 生产力的代价：AI 如何正在从生理上摧毁资深工程师"
 categories:
  - 科技思考
 tags: ["AI", "Productivity", "Engineering"]
-key: the-human-cost-of-10x-how-ai-is-physically-breaking-senior-engineers
+key: the-human-cost-of-10x-ai-productivity
 ---
 
 这篇文章探讨了 AI 带来的爆发性生产力背后，资深工程师正在面临的物理性极限与由于上下文切换、工作量膨胀导致的心理与生理压力。
 
 原文出处: https://techtrenches.dev/p/the-human-cost-of-10x-how-ai-is-physically
 
-# The Human Cost of 10x: How AI Is Physically Breaking Senior Engineers
+*作者: Denis Stetskov, 2026年4月7日*
 
-Your brain processes 10 bits per second. AI just increased your review queue by 98%. The math doesn’t work.
+上周二，晚上 7 点，我从办公桌前站起来，感到颅前部有一股真空感。不是头痛，也不是疲劳。而是一种物理上的空虚，仿佛前额叶整天都在红线运转，最后终于宕机了。我站在那里，愣了十秒钟，试图回忆我接下来要做什么。脑子里一片空白。
 
-*By Denis Stetskov, Apr 07, 2026*
+在过去的一年里，我大脑在任何一个周二处理的信息量，都曾是过去一周的工作量。代码评审是最糟糕的部分，但真正的“杀手”是上下文切换。AI 生成的 PR、客户的架构决策、三个关于部署问题的 Slack 讨论、需要审核的候选人简历、窗外传来的防空警报，然后又转过头去评审一段机器在几秒钟内写完、而我却需要数小时来验证的代码。每一个任务都要求不同的心理模型。每一个任务都在消耗工作记忆。到了下午 4 点，我做出的决策甚至连新手都未必信任。到了晚上 7 点，我的大脑在物理层面上已经空了。
 
-Last Tuesday, I stood up from my desk at 7 PM and felt a vacuum in the front of my skull. Not a headache. Not fatigue. A physical emptiness, like the frontal lobe had been running at redline all day and finally shut down. I stood there for ten seconds trying to remember what I was going to do next. Nothing came.
+“业界称之为‘10 倍生产力’。我称之为一个以机器速度生成产出，并强迫人类以生物速度进行处理的系统。”
 
-In the past year, the volume of information passing through my brain on any given Tuesday has become what used to take a week. Code review is the worst of it, but the real killer is the context switches. AI-generated PRs, client architecture decisions, three Slack threads about deployment issues, a candidate’s CV that needs review, an air defense alarm outside the window, then back to reviewing code that a machine wrote in seconds and I need hours to validate. Each of these demands a different mental model. Each one burns working memory. By 4 PM I’m making decisions I wouldn’t trust from a junior. By 7 PM my brain is physically empty.
+## 工作量蠕变 (Workload Creep)
 
-"The industry calls this “10x productivity.” I call it what it is: a system that generates output at machine speed and forces humans to process it at biological speed."
+2026 年 2 月，加州大学伯克利分校的研究人员通过在一家拥有 200 人的科技公司进行了为期八个月的深度嵌入研究，并进行了超过 40 场深度访谈。他们的结论是：AI 并不会减少工作，它只会让工作变得更加密集。
 
-## Workload Creep
+他们发现了“工作量蠕变”的三种机制：任务扩张——因为 AI 让完成更多工作成为可能，每个人的职责范围都在膨胀；模糊的边界——在午餐、通勤和晚上，AI 提示词（prompting）依然在发生；隐含的压力——当同事能利用 AI 显而易见地完成更多工作时，所有人的预期都会随之升高。
 
-In February 2026, UC Berkeley researchers published findings from eight months embedded inside a 200-person tech company. Over 40 in-depth interviews. Their conclusion: AI doesn’t reduce work. It intensifies it.
+Upwork 研究院对此进行了量化：77% 使用 AI 的员工表示，AI 增加了他们的工作量，而不是减少了。71% 的人报告了倦怠感。
 
-They found three mechanisms of “workload creep.” Task expansion: everyone’s scope inflates because AI makes it possible to do more. Blurred boundaries: AI prompting happens during lunch, commute, evenings. Implicit pressure: when colleagues visibly do more with AI, expectations rise for everyone.
+最令我彻夜难眠的发现是：那些报告了最高 AI 生产力增长的员工，其倦怠程度也最高。在“最高效”的 AI 使用者中，倦burn（倦怠）率高达 88%。他们离离职的可能性是其他人的两倍。
 
-The Upwork Research Institute quantified it: 77% of employees using AI say it has added to their workload. Not reduced. Added. 71% report burnout.
+那些在你的仪表盘（dashboard）上看起来表现最出色的人，其实是离离职最近的人。
 
-The finding that keeps me up at night: workers who report the highest AI productivity gains are the most burned out. 88% burnout rate among the “most productive” AI users. They’re twice as likely to quit.
+## 你的大脑以每秒 10 bit 的速度运行
 
-The people who look best on your dashboard are the ones closest to walking out the door.
+2025 年，Zheng 和 Meister 在《Neuron》杂志上发表的研究表明，人类大脑处理有意识、分析性思维的速度大约是每秒 10 bit。你的感官系统以大约每秒 10 亿 bit 的速度收集数据。但代码评审的瓶颈在于你真正“思考”的部分，而这一部分的速率仅为每秒 10 bit。
 
-## Your Brain Runs at 10 Bits Per Second
+工作记忆一次只能容纳大约 4 个信息块。SmartBear/Cisco 的研究揭示了被所有人忽视的数字：对于少于 100 行的 PR，缺陷检测率为 87%；而对于超过 1,000 行的 PR，该比例降至 28%。在持续工作 60 分钟后，质量会迅速崩塌。
 
-In 2025, Zheng and Meister published in Neuron that the human brain processes conscious, analytical thought at approximately 10 bits per second. Your sensory systems gather data at roughly 1 billion bits per second. But the bottleneck for code review, the part where you actually think, is 10 bits per second.
+现在看看 AI 对评审队列做了什么。
 
-Working memory holds roughly 4 chunks of information at a time. The SmartBear/Cisco study established numbers everyone ignores: defect detection drops from 87% for PRs under 100 lines to 28% for PRs over 1,000 lines. Quality collapses after 60 minutes.
+GitHub 的 Octoverse 2025 数据显示，每月合并的 Pull Request 达到 4320 万个，同比增长 23%。开发人员的每人代码行数在八个月内从 4,450 行增长到了 7,839 行，增幅高达 76%。
 
-Now look at what AI did to the review queue.
+Faros AI 分析了超过 10,000 名开发者，发现使用 AI 辅助的开发者合并的 PR 数量增加了 98%。而每一个这样的 PR 最终都会落在资深工程师的桌面上。
 
-GitHub’s Octoverse 2025 shows 43.2 million pull requests merged per month. Up 23% year-over-year. Lines of code per developer grew from 4,450 to 7,839 in eight months. A 76% increase.
+正如 MIT 报道的那样：“初级开发人员利用 AI 工具产出了更多的代码，但这种海量的产出正在饱和资深开发人员的评审能力。一名 OCaml 维护者直接拒绝了一个 13,000 行的 AI 生成 PR。因为根本没有带宽去处理。”
 
-Faros AI analyzed 10,000+ developers and found AI users merge 98% more pull requests with AI assistance. Every single one lands on a senior engineer’s desk.
-
-As MIT reported: "juniors produce far more code with AI tools, but the sheer volume is saturating senior developers’ capacity to review. One OCaml maintainer rejected a 13,000-line AI-generated PR outright. Nobody had the bandwidth."
-
-I wrote about the [supervision tax](https://techtrenches.dev/p/your-claudemd-pi-is-a-wish-list-not).
+我也曾写过关于[“监管税”](https://techtrenches.dev/p/your-claudemd-is-a-wish-list-not)的文章。
