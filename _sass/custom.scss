@@ -1,3 +1,312 @@
-/* start custom scss snippet */
+/*
+ * ============================================
+ *  CoCo's Blog — Custom SCSS
+ *  Cold-tone visual polish & enhancements
+ * ============================================
+ */
 
-/* end custom scss snippet */
+// ==========================================
+// 1. TYPOGRAPHY — Better Chinese readability
+// ==========================================
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Subtle letter-spacing for headings
+h1, h2, h3, h4 {
+  letter-spacing: -0.01em;
+}
+
+// ==========================================
+// 2. LINKS — Elegant hover effect
+// ==========================================
+a:not(.button):not(.menu *) {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 1px;
+  transition: background-size .3s ease;
+
+  &:hover {
+    background-size: 100% 1px;
+  }
+}
+
+// Keep buttons clean
+.button {
+  background-image: none !important;
+}
+
+// ==========================================
+// 3. HEADER — Dark nav bar polish
+// ==========================================
+.header {
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+}
+
+.header__brand > a {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.navigation__item--active::after {
+  height: 2px;
+  border-radius: 2px;
+}
+
+// Subtle nav item hover
+.navigation__item a {
+  transition: color .2s ease, opacity .2s ease;
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+// ==========================================
+// 4. ARTICLE HEADER — Tighter spacing
+// ==========================================
+.article__header {
+  margin-top: 2rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.article__header h1 {
+  font-weight: 600;
+}
+
+// Article meta info — better contrast
+.article__info {
+  color: #64748B;
+  font-size: 0.82rem;
+}
+
+// ==========================================
+// 5. ARTICLE CONTENT — Refined reading
+// ==========================================
+.article__content {
+  // Better blockquote
+  blockquote {
+    border-left-color: rgba(74, 143, 231, 0.35);
+    background: rgba(74, 143, 231, 0.03);
+    border-radius: 0 6px 6px 0;
+    padding: 0.75rem 1rem;
+    margin: 1.5rem 0;
+
+    p:first-child { margin-top: 0; }
+    p:last-child { margin-bottom: 0; }
+  }
+
+  // Images — subtle rounded corners
+  img:not(.emoji) {
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+  }
+
+  // Code blocks
+  .highlighter-rouge > .highlight,
+  figure.highlight {
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(15, 23, 42, 0.04);
+
+    & > pre {
+      border-radius: 8px;
+    }
+  }
+
+  // Inline code
+  code {
+    border-radius: 4px;
+    padding: 0.15em 0.4em;
+    font-size: 0.85em;
+  }
+
+  // Tables
+  table {
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+
+    th {
+      font-weight: 600;
+    }
+  }
+
+  // Horizontal rules
+  hr {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #E2E8F0, transparent);
+    border: none;
+    margin: 2.5rem 0;
+  }
+
+  // Headings with anchors
+  @include heading-elements() {
+    font-weight: 600;
+    scroll-margin-top: 5rem;
+  }
+}
+
+// ==========================================
+// 6. ARTICLE LIST — Homepage cards
+// ==========================================
+.layout--articles,
+.layout--home {
+  .items--divided > .item {
+    &:not(:first-child) {
+      padding-top: 1.5rem;
+    }
+    &:not(:last-child) {
+      padding-bottom: 1.5rem;
+    }
+  }
+
+  .item__header {
+    font-weight: 600;
+  }
+
+  .item__description {
+    color: #64748B;
+  }
+}
+
+// ==========================================
+// 7. FOOTER — Dark footer polish
+// ==========================================
+.footer {
+  box-shadow: 0 -1px 3px rgba(15, 23, 42, 0.06);
+  padding: 1.25rem 0;
+
+  a {
+    transition: opacity .2s ease;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+// ==========================================
+// 8. PAGINATION — Cleaner look
+// ==========================================
+.pagination__menu {
+  .button {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all .2s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 2px 6px rgba(74, 143, 231, 0.15);
+    }
+  }
+}
+
+// ==========================================
+// 9. SCROLLBAR — Minimalist
+// ==========================================
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+
+  &:hover {
+    background: #94A3B8;
+  }
+}
+
+// ==========================================
+// 10. SELECTION — Branded highlight
+// ==========================================
+::selection {
+  background: rgba(74, 143, 231, 0.2);
+  color: #0F172A;
+}
+
+// ==========================================
+// 11. DARK MODE — System preference
+// ==========================================
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0F172A;
+    color: #E2E8F0;
+  }
+
+  .layout--page .page__main-inner {
+    background-color: #0F172A;
+  }
+
+  // Invert card/code backgrounds
+  .article__content {
+    blockquote {
+      background: rgba(74, 143, 231, 0.08);
+      border-left-color: rgba(74, 143, 231, 0.5);
+      color: #CBD5E1;
+    }
+
+    code {
+      background-color: rgba(255, 255, 255, 0.08);
+      color: #E2E8F0;
+    }
+
+    .highlighter-rouge > .highlight,
+    figure.highlight {
+      box-shadow: none;
+      & > pre {
+        background-color: rgba(255, 255, 255, 0.04);
+      }
+    }
+
+    table {
+      th, td {
+        border-color: #334155;
+      }
+      thead, tfoot {
+        background-color: rgba(255, 255, 255, 0.04);
+      }
+    }
+
+    img:not(.emoji) {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    hr {
+      background: linear-gradient(to right, transparent, #334155, transparent);
+    }
+  }
+
+  .items--divided > .item:not(:last-child) {
+    border-bottom-color: #1E293B;
+  }
+
+  .header {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .footer {
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.15);
+  }
+}
+
+// ==========================================
+// 12. MOBILE — Responsive tweaks
+// ==========================================
+@include media-breakpoint-down(md) {
+  .article__header {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .article__content {
+    hr {
+      margin: 2rem 0;
+    }
+  }
+}

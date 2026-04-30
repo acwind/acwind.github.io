@@ -49,9 +49,9 @@ $base: (
   font-weight:            400,
   font-weight-bold:       700,
 
-  line-height-xl:         2,
-  line-height-lg:         1.8,
-  line-height:            1.6,
+  line-height-xl:         1.9,
+  line-height-lg:         1.75,
+  line-height:            1.55,
   line-height-sm:         1.4,
   line-height-xs:         1.2,
 
@@ -79,9 +79,9 @@ $z-indexes: (
 );
 
 $layout: (
-  header-height:          5rem,
-  header-height-sm:       3rem,
-  content-max-width:      950px,
+  header-height:          3.5rem,
+  header-height-sm:       2.8rem,
+  content-max-width:      780px,
   sidebar-width:          250px,
   sidebar-header-height:  3rem,
   aside-width:            220px
