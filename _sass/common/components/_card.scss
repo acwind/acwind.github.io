@@ -79,7 +79,7 @@
 .card--clickable {
   cursor: pointer;
   @include hover() {
-    @include box-shadow(2);
+    @include box-shadow(1);
     .card__image {
       & > img {
         height: inherit;

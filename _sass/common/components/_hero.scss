@@ -9,7 +9,7 @@
   h4 { font-size: map-get($base, font-size-h4-xl); }
   h5 { font-size: map-get($base, font-size-h5-xl); }
   h6 { font-size: map-get($base, font-size-h6-xl); }
-  p  { font-size: map-get($base, font-size-xl); }
+  p  { font-size: map-get($base, font-size-lg); }
   @include media-breakpoint-down(lg) {
     h1 { font-size: map-get($base, font-size-h1-lg); }
     h2 { font-size: map-get($base, font-size-h2-lg); }
@@ -17,7 +17,7 @@
     h4 { font-size: map-get($base, font-size-h4-lg); }
     h5 { font-size: map-get($base, font-size-h5-lg); }
     h6 { font-size: map-get($base, font-size-h6-lg); }
-    p  { font-size: map-get($base, font-size-lg); }
+    p  { font-size: map-get($base, font-size); }
   }
   @include media-breakpoint-down(md) {
     h1 { font-size: map-get($base, font-size-h1-sm); }
