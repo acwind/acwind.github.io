@@ -1,11 +1,3 @@
----
-title: 软件正在变成“液体”
-categories:
- - 科技思考
-tags: []
-key: software-is-liquid
----
-
 序言：这篇文章最有价值的地方，不是“AI 很快”这种结论，而是它逼我们重算软件工作的经济账。若“改错成本”大幅下降，很多沿用多年的流程都应该重审。
 原文出处：[Software Is Liquid | Jamie Thingelstad](https://www.thingelstad.com/2026/04/20/software-is-liquid.html)（作者：Jamie Thingelstad，发布日期：2026-04-20）
 
