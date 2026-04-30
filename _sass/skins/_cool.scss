@@ -1,0 +1,139 @@
+///
+// Skin: Cool Slate — cold blue tones
+//   →  _config.yml:  text_skin: cool
+///
+
+// ==========================================
+// COLOR VARIABLES
+// ==========================================
+$main-color-1:     #4A8FE7;
+$text-color-1:     #fff;
+
+$main-color-2:     #6C8EBF;
+$text-color-2:     #fff;
+
+$main-color-3:     #1E293B;
+$text-color-3:     #E2E8F0;
+
+$main-color-theme-light: rgba(#1E293B, .95);
+$main-color-theme-dark:  rgba(#F1F5F9, .95);
+
+$background-color: #FAFBFC;
+
+$text-color-theme-light-d: #0F172A;
+$text-color-theme-light:   #1E293B;
+$text-color-theme-light-l: #64748B;
+
+$text-color-theme-dark-d:  #FFFFFF;
+$text-color-theme-dark:    rgba(#F1F5F9, .95);
+$text-color-theme-dark-l:  rgba(#CBD5E1, .85);
+
+$text-color-d:     $text-color-theme-light-d;
+$text-color:       $text-color-theme-light;
+$text-color-l:     $text-color-theme-light-l;
+
+$text-background-color: rgba(#4A8FE7, .06);
+
+$header-text-color: $text-color-3;
+$header-background: $main-color-3;
+
+$footer-text-color: $text-color-3;
+$footer-background: $main-color-3;
+
+$border-color:     #E2E8F0;
+$border-color-l:   #F1F5F9;
+$decorate-color:   rgba(#4A8FE7, .12);
+$mask-color:       rgba(#0F172A, .85);
+$select-color:     rgba(#4A8FE7, .3);
+
+$green:           #22C55E;
+$blue:            #4A8FE7;
+$yellow:          #F59E0B;
+$red:             #EF4444;
+$text-color-function: #fff;
+
+$mail-color:       #0072C5;
+$facebook-color:   #4267B2;
+$twitter-color:    #1DA1F2;
+$weibo-color:      #E6162D;
+$google-plus-color:#EA4335;
+$telegram-color:   #32AFED;
+$medium-color:     #000;
+$zhihu-color:      #0084FF;
+$douban-color:     #42BD56;
+$linkedin-color:   #1074AF;
+$github-color:     #000;
+$npm-color:        #fff;
+
+@import "skins/highlight/tomorrow-night-blue";
+
+// ==========================================
+// COLOR-DEPENDENT CSS
+// ==========================================
+
+.article__content {
+  blockquote {
+    border-left-color: rgba(74, 143, 231, 0.35);
+    background: rgba(74, 143, 231, 0.03);
+    border-radius: 0 6px 6px 0;
+    padding: 0.75rem 1rem;
+    margin: 1.5rem 0;
+  }
+
+  hr {
+    background: linear-gradient(to right, transparent, #E2E8F0, transparent);
+  }
+}
+
+.pagination__menu .button:hover {
+  box-shadow: 0 2px 6px rgba(74, 143, 231, 0.15);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  &:hover { background: #94A3B8; }
+}
+
+::selection {
+  background: rgba(74, 143, 231, 0.2);
+  color: #0F172A;
+}
+
+// ---- Dark mode auto-overrides ----
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0F172A;
+    color: #E2E8F0;
+  }
+  .layout--page .page__main-inner { background-color: #0F172A; }
+
+  .article__content {
+    blockquote {
+      background: rgba(74, 143, 231, 0.08);
+      border-left-color: rgba(74, 143, 231, 0.5);
+      color: #CBD5E1;
+    }
+    code {
+      background-color: rgba(255, 255, 255, 0.08);
+      color: #E2E8F0;
+    }
+    .highlighter-rouge > .highlight > pre,
+    figure.highlight > pre {
+      background-color: rgba(255, 255, 255, 0.04) !important;
+    }
+    table {
+      th, td { border-color: #334155; }
+      thead, tfoot { background-color: rgba(255, 255, 255, 0.04); }
+    }
+    img:not(.emoji) {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+    hr {
+      background: linear-gradient(to right, transparent, #334155, transparent);
+    }
+  }
+
+  .items--divided > .item:not(:last-child) { border-bottom-color: #1E293B; }
+  .header { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
+  .footer { box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.15); }
+}

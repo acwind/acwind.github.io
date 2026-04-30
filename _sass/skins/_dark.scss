@@ -1,74 +1,132 @@
 ///
-// Skin: Dark
-// Author: Tian Qi
-// Email: kitian616@outlook.com
+// Skin: True Dark — deep navy background, high-contrast light text
+//   →  _config.yml:  text_skin: dark
 ///
 
-// main colors
-$main-color-1:     #ff9500;
-$text-color-1:     rgba(#fff, .8);
+// ==========================================
+// COLOR VARIABLES
+// ==========================================
+$main-color-1:     #60A5FA;
+$text-color-1:     #0F172A;
 
-$main-color-2:     #ff006a;
-$text-color-2:     rgba(#fff, .8);
+$main-color-2:     #93C5FD;
+$text-color-2:     #0F172A;
 
-$main-color-3:     #202020;
-$text-color-3:     rgba(#fff, .8);
+$main-color-3:     #020617;
+$text-color-3:     #E2E8F0;
 
-$main-color-theme-light: rgba(#000, .8);
-$main-color-theme-dark:  rgba(#fff, .8);
+$main-color-theme-light: rgba(#F1F5F9, .95);
+$main-color-theme-dark:  rgba(#F1F5F9, .95);
 
-// page background
-$background-color: #121212;
+$background-color: #0F172A;
 
-// text colors
-$text-color-theme-light-d: #000;
-$text-color-theme-light:   #222;
-$text-color-theme-light-l: #888;
+$text-color-theme-light-d: #FFFFFF;
+$text-color-theme-light:   #F1F5F9;
+$text-color-theme-light-l: #94A3B8;
 
-$text-color-theme-dark-d:  rgba(#fff, .8);
-$text-color-theme-dark:    rgba(#fff, .7);
-$text-color-theme-dark-l:  rgba(#fff, .5);
+$text-color-theme-dark-d:  #FFFFFF;
+$text-color-theme-dark:    rgba(#F1F5F9, .95);
+$text-color-theme-dark-l:  rgba(#CBD5E1, .85);
 
-$text-color-d:     $text-color-theme-dark-d;
-$text-color:       $text-color-theme-dark;
-$text-color-l:     $text-color-theme-dark-l;
+$text-color-d:     $text-color-theme-light-d;
+$text-color:       $text-color-theme-light;
+$text-color-l:     $text-color-theme-light-l;
 
-$text-background-color: rgba(#fff, .05);
+$text-background-color: rgba(255, 255, 255, .06);
 
-// header and footer colors
 $header-text-color: $text-color-3;
 $header-background: $main-color-3;
 
 $footer-text-color: $text-color-3;
 $footer-background: $main-color-3;
 
-// border and shadow colors
-$border-color:     mix(#fff, $background-color, 20%);
-$border-color-l:   mix(#fff, $background-color, 10%);
-$decorate-color:   rgba(#fff, .1);
-$mask-color:       rgba(#000, .9);
-$select-color:     rgba($main-color-1, .5);
+$border-color:     #1E293B;
+$border-color-l:   #263348;
+$decorate-color:   rgba(#60A5FA, .15);
+$mask-color:       rgba(#020617, .9);
+$select-color:     rgba(#60A5FA, .3);
 
-// function colors
-$green:           #5baa34;
-$blue:            #1c7cd4;
-$yellow:          #c9771f;
-$red:             #da3d45;
-$text-color-function: rgba(#fff, .8);
+$green:           #4ADE80;
+$blue:            #60A5FA;
+$yellow:          #FBBF24;
+$red:             #F87171;
+$text-color-function: #0F172A;
 
-// logo colors
-$mail-color:       #0072c5;
-$facebook-color:   #4267b2;
-$twitter-color:    #1da1f2;
-$weibo-color:      #e6162d;
-$google-plus-color:#ea4335;
-$telegram-color:   #32afed;
-$medium-color:     #000;
-$zhihu-color:      #0084ff;
-$douban-color:     #42bd56;
-$linkedin-color:   #1074af;
-$github-color:     #000;
-$npm-color:        #fff;
+$mail-color:       #60A5FA;
+$facebook-color:   #818CF8;
+$twitter-color:    #60A5FA;
+$weibo-color:      #F87171;
+$google-plus-color:#F87171;
+$telegram-color:   #60A5FA;
+$medium-color:     #F1F5F9;
+$zhihu-color:      #60A5FA;
+$douban-color:     #4ADE80;
+$linkedin-color:   #60A5FA;
+$github-color:     #F1F5F9;
+$npm-color:        #F1F5F9;
 
-// highlight colors
-@import "skins/highlight/tomorrow-night";
+@import "skins/highlight/tomorrow-night-bright";
+
+// ==========================================
+// COLOR-DEPENDENT CSS
+// ==========================================
+
+body {
+  background-color: #0F172A;
+  color: #E2E8F0;
+}
+
+.article__content {
+  blockquote {
+    border-left-color: rgba(96, 165, 250, 0.4);
+    background: rgba(96, 165, 250, 0.06);
+    border-radius: 0 6px 6px 0;
+    padding: 0.75rem 1rem;
+    margin: 1.5rem 0;
+    color: #CBD5E1;
+  }
+
+  code {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #E2E8F0;
+  }
+
+  .highlighter-rouge > .highlight > pre,
+  figure.highlight > pre {
+    background-color: rgba(255, 255, 255, 0.04) !important;
+  }
+
+  table {
+    th, td { border-color: #334155; }
+    thead, tfoot { background-color: rgba(255, 255, 255, 0.04); }
+  }
+
+  img:not(.emoji) {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  hr {
+    background: linear-gradient(to right, transparent, #334155, transparent);
+  }
+}
+
+.items--divided > .item:not(:last-child) {
+  border-bottom-color: #1E293B;
+}
+
+.pagination__menu .button:hover {
+  box-shadow: 0 2px 6px rgba(96, 165, 250, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  &:hover { background: #475569; }
+}
+
+::selection {
+  background: rgba(96, 165, 250, 0.25);
+  color: #FFFFFF;
+}
+
+.header { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25); }
+.footer { box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.2); }
