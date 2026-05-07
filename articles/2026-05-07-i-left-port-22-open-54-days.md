@@ -1,10 +1,5 @@
----
-title: 我让 22 端口在互联网上裸奔了 54 天，看看谁找上门来了
-categories:
- - 科技思考
-tags: [ssh, 安全]
-key: i-left-port-22-open-54-days
----
+# 我把 22 端口暴露在互联网上 54 天，结果谁都来了
+
 序言：这篇实测文章很直观地展示了一个事实 - 只要 SSH 暴露在公网，扫描和尝试登录几乎会立刻开始，而且规模远超多数人的直觉。
 原文：[I Left Port 22 Open on the Internet for 54 Days. Here's Who Showed Up.](https://arman-bd.hashnode.dev/i-left-port-22-open-on-the-internet-for-54-days-here-s-who-showed-up)（作者：Arman Hossain，发布日期：2026-04-24）
 
