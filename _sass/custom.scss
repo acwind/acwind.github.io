@@ -136,12 +136,12 @@ a:not(.button):not(.menu *) {
   a:not(.button) {
     color: var(--reader-link);
     text-decoration: underline;
-    text-decoration-color: color-mix(in srgb, var(--reader-link) 45%, transparent);
+    text-decoration-color: rgba(15, 91, 216, 0.45);
     text-underline-offset: 3px;
     text-decoration-thickness: 1px;
     &:hover {
       color: var(--reader-link-hover);
-      text-decoration-color: color-mix(in srgb, var(--reader-link-hover) 55%, transparent);
+      text-decoration-color: rgba(10, 67, 168, 0.55);
     }
   }
 
