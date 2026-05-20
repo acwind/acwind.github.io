@@ -8,13 +8,13 @@ type: article
   source0=layout.sharing source1=page.sharing -%}
 {%- assign _sharing = __return -%}
 
-<div class="layout--article">
+<div class="layout--article article-modern">
   {%- include article/top/custom.html -%}
 
-  <div class="article__content" itemprop="articleBody">{{ content }}</div>
+  <div class="article__content fs-6" itemprop="articleBody">{{ content }}</div>
 
   {%- if _sharing -%}
-    <section class="article__sharing d-print-none">{%- include sharing.html -%}</section>
+    <section class="article__sharing d-print-none pt-2">{%- include sharing.html -%}</section>
   {%- endif -%}
 
   <div class="d-print-none">

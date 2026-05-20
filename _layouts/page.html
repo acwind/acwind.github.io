@@ -67,7 +67,7 @@ layout: base
     {%- endif -%}
     <div class="{{ _page_main_class }} cell cell--auto">
 
-      <div class="page__main-inner">
+      <div class="page__main-inner bg-body-tertiary">
       {%- if _header != false -%}
         <div class="page__header d-print-none">
         {%- assign _header_theme = page.header.theme | default: layout.header.theme -%}
@@ -179,7 +179,7 @@ layout: base
 
 
         {%- if _full_width == false -%}
-          <div class ="main">
+          <div class ="main py-4 py-md-5">
         {%- endif -%}
             <div class="grid grid--reverse">
 
@@ -194,11 +194,11 @@ layout: base
               <div class="col-main cell cell--auto">
                 {%- include main/top/custom.html -%}
                 {%- if _page_type == 'article' -%}
-                  <article itemscope itemtype="http://schema.org/Article">
+                  <article class="article-shell" itemscope itemtype="http://schema.org/Article">
                 {%- elsif _page_type == 'webpage' -%}
-                  <article itemscope itemtype="http://schema.org/WebPage">
+                  <article class="article-shell" itemscope itemtype="http://schema.org/WebPage">
                 {%- else -%}
-                  <article>
+                  <article class="article-shell">
                 {%- endif -%}
 
                 {%- if _article_header_type == 'overlay' or page.article_header == false -%}
