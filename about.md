@@ -31,11 +31,13 @@ key: page-about
 - Side Project：
   - [https://www.animesdata.com](https://www.animesdata.com)
   - [https://www.featherquantum.com](https://www.featherquantum.com)
+  - [https://www.gigmoments.com](https://www.gigmoments.com)
 - Instagram： [https://www.instagram.com/acwind](https://www.instagram.com/acwind)
 
 
 ### 我的2026
 
+- 5月3号去香港看了英皇25+演唱会，一口气看到了喜欢的 GinLee、许靖韵和泳儿，太值了 🎤
 - 2月7日去看了李幸倪 GinLee 的演唱会，圆了多年的心愿,非常开心 🎵
 - 1月去了新加坡和马来西亚，不得不说新加坡作为花园城市真的名不虚传，环境比日本还干净，期待以后有机会再去。
 
