@@ -2,6 +2,12 @@
   @include overflow(auto);
 
 }
+
+.page__search-modal {
+  background-color: $mask-color;
+  backdrop-filter: blur(8px);
+}
+
 .search--google-custom-search-engine {
   .main {
     padding-top: map-get($spacers, 4);
