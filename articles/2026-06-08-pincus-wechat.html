@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>验证、更好、全新：Mark Pincus 论创新法则</title>
+<style>
+  :root {
+    --bg: #fffef9;
+    --text: #2d2d2d;
+    --text-light: #6b6b6b;
+    --accent: #d4a853;
+    --accent-deep: #b8860b;
+    --quote-bg: #f9f5ec;
+    --quote-border: #d4a853;
+    --card-bg: #faf7f0;
+    --divider: #e8e0d0;
+    --tag-bg: #f3ecd8;
+    --tag-text: #8b7355;
+    --heading: #1a1a1a;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.85;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .article-container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 48px 24px 64px;
+  }
+
+  /* 顶部装饰线 */
+  .top-rule {
+    width: 48px;
+    height: 3px;
+    background: var(--accent);
+    margin-bottom: 36px;
+    border-radius: 2px;
+  }
+
+  /* 标题区 */
+  .article-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: var(--heading);
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+  }
+
+  .article-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+  }
+
+  .meta-tag {
+    font-size: 12px;
+    color: var(--tag-text);
+    background: var(--tag-bg);
+    padding: 4px 12px;
+    border-radius: 20px;
+    letter-spacing: 0.04em;
+  }
+
+  .meta-sep {
+    color: var(--divider);
+  }
+
+  .meta-date {
+    font-size: 13px;
+    color: var(--text-light);
+  }
+
+  /* 引导语 */
+  .lede {
+    font-size: 17px;
+    color: var(--text-light);
+    line-height: 1.8;
+    margin-bottom: 32px;
+    padding-left: 16px;
+    border-left: 2px solid var(--accent);
+  }
+
+  /* 主图 */
+  .hero-image {
+    width: 100%;
+    margin: 0 0 36px 0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .hero-image img {
+    width: 100%;
+    display: block;
+  }
+
+  /* 来源标注 */
+  .source-note {
+    font-size: 14px;
+    color: var(--text-light);
+    margin-bottom: 36px;
+    padding: 12px 16px;
+    background: var(--card-bg);
+    border-radius: 6px;
+    border-left: 3px solid var(--accent);
+  }
+
+  .source-note a {
+    color: var(--accent-deep);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color .2s;
+  }
+
+  .source-note a:hover { border-color: var(--accent-deep); }
+
+  /* 聆听 + 精选片段卡片 */
+  .feature-card {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 24px 28px;
+    margin-bottom: 36px;
+  }
+
+  .feature-card h3 {
+    font-size: 13px;
+    color: var(--tag-text);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 14px;
+    font-weight: 600;
+  }
+
+  .listen-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 18px;
+  }
+
+  .listen-link {
+    display: inline-block;
+    padding: 6px 16px;
+    font-size: 13px;
+    color: var(--accent-deep);
+    background: #fff;
+    border: 1px solid var(--divider);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all .2s;
+  }
+
+  .listen-link:hover {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+
+  .clips-list {
+    list-style: none;
+  }
+
+  .clips-list li {
+    padding: 8px 0;
+    font-size: 14px;
+    color: var(--text);
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    border-bottom: 1px solid var(--divider);
+  }
+
+  .clips-list li:last-child { border-bottom: none; }
+
+  .clip-time {
+    font-weight: 700;
+    color: var(--accent-deep);
+    font-size: 13px;
+    min-width: 56px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* 微金句区 */
+  .tiny-lessons {
+    margin-bottom: 40px;
+  }
+
+  .tiny-lessons h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--heading);
+  }
+
+  .lesson-item {
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    background: var(--quote-bg);
+    border-radius: 6px;
+    border-left: 3px solid var(--accent);
+    font-size: 15px;
+    line-height: 1.7;
+    color: #3d3d3d;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .lesson-num {
+    font-weight: 700;
+    color: var(--accent-deep);
+    font-size: 14px;
+    min-width: 24px;
+    text-align: right;
+    flex-shrink: 0;
+    padding-top: 2px;
+  }
+
+  /* 章节标题 */
+  .section-heading {
+    font-size: 21px;
+    font-weight: 700;
+    color: var(--heading);
+    margin: 44px 0 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--divider);
+    letter-spacing: 0.02em;
+  }
+
+  /* 段落 */
+  .section-heading + p,
+  p {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.85;
+  }
+
+  /* 块引用 */
+  blockquote {
+    margin: 24px 0;
+    padding: 20px 24px;
+    background: var(--quote-bg);
+    border-left: 4px solid var(--accent);
+    font-size: 16px;
+    color: #4a4a4a;
+    font-style: italic;
+    border-radius: 0 8px 8px 0;
+    line-height: 1.75;
+  }
+
+  /* 行内图片 */
+  .inline-image {
+    width: 100%;
+    margin: 28px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+
+  .inline-image img {
+    width: 100%;
+    display: block;
+  }
+
+  .inline-image .caption {
+    display: block;
+    padding: 10px 16px;
+    font-size: 13px;
+    color: var(--text-light);
+    text-align: center;
+    background: var(--card-bg);
+  }
+
+  /* 分隔线 */
+  hr {
+    border: none;
+    height: 1px;
+    background: var(--divider);
+    margin: 40px 0;
+  }
+
+  /* 重点强调 */
+  strong {
+    color: var(--heading);
+  }
+
+  /* 底部 */
+  .footer-note {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 2px solid var(--divider);
+  }
+
+  .footer-note p {
+    font-size: 14px;
+    color: var(--text-light);
+    line-height: 1.8;
+  }
+
+  .footer-note a {
+    color: var(--accent-deep);
+    text-decoration: none;
+  }
+
+  /* 结束金句 */
+  .closing-quote {
+    margin: 36px 0 20px;
+    padding: 28px 24px;
+    background: linear-gradient(135deg, #f9f5ec 0%, #fdfaf3 100%);
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .closing-quote p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--heading);
+    font-weight: 500;
+  }
+
+  /* 响应式 */
+  @media (max-width: 480px) {
+    .article-container { padding: 32px 16px 48px; }
+    .article-title { font-size: 24px; }
+    .section-heading { font-size: 19px; }
+    .feature-card { padding: 18px 20px; }
+    .lesson-item { padding: 10px 14px; font-size: 14px; }
+    blockquote { padding: 16px 20px; font-size: 15px; }
+  }
+</style>
+</head>
+<body>
+<div class="article-container">
+
+  <div class="top-rule"></div>
+
+  <h1 class="article-title">验证、更好、全新：Mark Pincus 论创新法则</h1>
+
+  <div class="article-meta">
+    <span class="meta-tag">科技思考</span>
+    <span class="meta-sep">&middot;</span>
+    <span class="meta-date">2026-06-08</span>
+    <span class="meta-sep">&middot;</span>
+    <span class="meta-tag">The Knowledge Project</span>
+  </div>
+
+  <div class="lede">
+    Mark Pincus 是 FarmVille 和 Words With Friends 的创造者。他把 Zynga 打造成全球最大的游戏公司之一，也帮助塑造了互联网社交产品的早期时代。在这期对话中，他剖析了优秀创始人如何早早识别制胜创意、为什么大多数创业公司都在做错误的东西，以及产品是怎样成为人们日常生活的一部分。
+  </div>
+
+  <div class="hero-image">
+    <img src="https://images.animesdata.com/news/2026/06/08/6a268f0cf0e5e.png" alt="Mark Pincus 播客主视觉">
+  </div>
+
+  <div class="source-note">
+    原文：<a href="https://fs.blog/knowledge-project-podcast/mark-pincus/">Proven, Better, New: Mark Pincus on the Rules of Innovation</a>，来自 The Knowledge Project 播客，主持人为 Shane Parrish。
+  </div>
+
+  <div class="feature-card">
+    <h3>聆听</h3>
+    <div class="listen-links">
+      <a class="listen-link" href="https://www.youtube.com/watch?v=iGx8RDvMvsg">YouTube</a>
+      <a class="listen-link" href="https://open.spotify.com/episode/5VsiGZmLY7G1rU922IRakw?si=EY7m3m-wTCezu89xfO-RJw">Spotify</a>
+      <a class="listen-link" href="https://podcasts.apple.com/us/podcast/proven-better-new-mark-pincus-on-the-rules-of/id990149481?i=1000770750310">Apple Podcasts</a>
+      <a class="listen-link" href="https://x.com/shaneparrish/status/2061764448742670677">X</a>
+      <a class="listen-link" href="https://fs.blog/knowledge-project-podcast-transcripts/mark-pincus/">文字稿</a>
+    </div>
+    <h3>精选片段</h3>
+    <ul class="clips-list">
+      <li><span class="clip-time">12:04</span> 人生之书：做战略决策的系统</li>
+      <li><span class="clip-time">24:05</span> 如何使用「验证、更好、全新」来构建创意</li>
+      <li><span class="clip-time">37:25</span> 向 Steve Jobs 推销 Zynga</li>
+      <li><span class="clip-time">01:03:44</span> Jeff Bezos 的无价管理技巧</li>
+    </ul>
+  </div>
+
+  <div class="tiny-lessons">
+    <h2>微金句（Tiny Lessons）</h2>
+
+    <div class="lesson-item">
+      <span class="lesson-num">01</span>
+      <span>知道你的目标，否则你将死于一千次妥协。</span>
+    </div>
+    <div class="lesson-item">
+      <span class="lesson-num">02</span>
+      <span>消费领域的伟大产品在某个深层与我们对话。它们触动了某种我们一直感受到、却从未被表达或未被满足的人类本能或需求。</span>
+    </div>
+    <div class="lesson-item">
+      <span class="lesson-num">03</span>
+      <span>有些人讲究策略，有些人则只说真话。</span>
+    </div>
+    <div class="lesson-item">
+      <span class="lesson-num">04</span>
+      <span>我开始在笔记本上写下为什么我的生活如此糟糕。</span>
+    </div>
+    <div class="lesson-item">
+      <span class="lesson-num">05</span>
+      <span>有没有一些小的和大的事情在我的掌控之中——我现在就可以去做，而且未来的自己会感谢我？</span>
+    </div>
+    <div class="lesson-item">
+      <span class="lesson-num">06</span>
+      <span>如果我们一开始就问「如果一切出错怎么办」，那你就在打防守战——还没出师就已经输了。</span>
+    </div>
+    <div class="lesson-item">
+      <span class="lesson-num">07</span>
+      <span>我们的直觉几乎总是对的，而我们的想法通常是错的。</span>
+    </div>
+    <div class="lesson-item">
+      <span class="lesson-num">08</span>
+      <span>所有新事物都会失败——直到它最终不失败为止。这并不意味着你不做新东西。它意味着你要尝试许多、许多每个新想法的变体，在更小的创新原子单位中寻找「新」。</span>
+    </div>
+    <div class="lesson-item">
+      <span class="lesson-num">09</span>
+      <span>如果你想成为一个伟大的产品制造者，你需要用整个职业生涯去解构——每当一个新产品出现时，成为你自己体验中的学生。</span>
+    </div>
+    <div class="lesson-item">
+      <span class="lesson-num">10</span>
+      <span>你欠自己一个机会去相信你的直觉。你欠自己一个因为自己而失败的机会。你有权犯错。作为创始人，你欠自己一个机会去掌控自己的命运。</span>
+    </div>
+    <div class="lesson-item">
+      <span class="lesson-num">11</span>
+      <span>太多团队花时间构建一个可以投放市场的最小可行产品——而我们已经没有那个时间了。我们需要在漏斗顶端建立一个失败机器。我们需要达到一个「最小想法状态」——用 vibe coding 快速验证想法。</span>
+    </div>
+  </div>
+
+  <hr>
+
+  <h2 class="section-heading">进攻而非防守：企业家的心态</h2>
+
+  <p>Pincus 认为，创业者的精神状态决定了最终的成败。「我们必须处于一种进攻状态，而不是防守状态。你必须让自己处在一个思考『如果一切顺利会怎样』的位置。」他说，如果我们一开始就从以防万一出发，那么我们已经在打防守战——还没出师就输了。</p>
+
+  <p>这个观点贯穿了他整个职业生涯。从卖掉第一家公司 Freeloader 到创办 Zynga，Pincus 亲眼看到太多创始人因为一次失败就被困住了。「他们开始被失败定义——如果我不走运的话，那个『他们』就是我。」他强调，你需要同时思考两个问题：顺利是什么样的？我如何为顺利做好准备？</p>
+
+  <blockquote>如果我们一开始就问「如果一切出错怎么办」，那你就在打防守战——还没出师就已经输了。</blockquote>
+
+  <h2 class="section-heading">什么是伟大的产品：触及未被满足的本能</h2>
+
+  <p>Pincus 对伟大产品有一个简洁的判断标准。「伟大的消费品会与我们在深层次对话。当它们第一次出现在我们面前时，有一种魔法感——那可能是一次解锁。」最讽刺的是，正是我们最怀疑的地方，往往最准备好迎接魔法。</p>
+
+  <p>他的个人指标极其简单：如果一个产品能在他的 iPhone 主屏上占有一席之地，他就认为它有二十亿美元级别的粘性。「新应用能进入主屏的情况太少了——我的主屏甚至有一半是空的。那些能让我们每天忍不住去用的数字消费品，全世界也没几个。」</p>
+
+  <div class="inline-image">
+    <img src="https://images.animesdata.com/news/2026/06/08/6a268f1508be3.png" alt="Mark Pincus 在播客中讨论产品哲学">
+    <span class="caption">Mark Pincus 在播客中讨论产品哲学</span>
+  </div>
+
+  <p>Pincus 强调，产品制造者要对用户怀有一种近乎神圣的责任。当你越把这个当作最重要的使命，就越会用应有的尊重来对待产品——而用户会感受到。</p>
+
+  <h2 class="section-heading">识别「热度」与「真实信号」</h2>
+
+  <p>「我在寻找一个想法周围的真正热度。」Pincus 说，热度这东西——你看到就知道。就像你真的爱上一个人，你知道他/她就是那个人；而所有那些不太确定的人，你永远都在犹豫。</p>
+
+  <p>热度不是什么点击率或数据指标——虽然你会去看这些。「当你真正有热度的时候，每一个数据都在说热。而当你没有热度时，你需要一大堆数据来说服自己——这是信号吗？到底是不是？不，它不是。」真正的信号，他称之为「真实信号」——你不需要任何人为你解释，所有人都能感觉到。看到它的那一刻，「就像圣诞节的早晨，一切都亮了」。</p>
+
+  <blockquote>当你有真实信号的时候，所有人都知道。你不需要任何人来告诉你。</blockquote>
+
+  <h2 class="section-heading">家庭、游戏与早年经历</h2>
+
+  <p>Pincus 成长于一个极具竞争氛围的家庭——一家人热衷于桌面社交游戏——猜词游戏、Scrabble、Trivial Pursuit。「我父亲非常爱玩。更有意思的是，我们会因为觉得游戏规则设计得不好而自己改规则。」</p>
+
+  <p>最经典的是 Scrabble。他们不满于字母抽牌的运气成分，于是父亲发明了一条规则：你可以把自己的字母和棋盘上的字母交换，只要棋盘上还能组成一个单词，并且你在同一个回合内把换来的字母用掉。「我父亲有时候一个回合要花半个小时——但他给游戏增加了一个全新的维度。」</p>
+
+  <p>转折点发生在一场家庭航海旅行。在维尔京群岛附近，船开始失控打转，父亲惊慌失措。Pincus 跳进小艇，开动引擎，抓住绳子，把帆船拖进了泊位里救了所有人。但父亲极其愤怒——「你能害死我们所有人，而且一艘船只能有一个船长。」争吵升级，父亲说决定让他退学。Pincus 的回答只有一句：「去你的。再见。」他租了一架水上飞机离开了，随后转学到了宾夕法尼亚大学沃顿商学院。</p>
+
+  <blockquote>有些人讲究策略，有些人则只说真话。</blockquote>
+
+  <h2 class="section-heading">职业生涯的「失败」与真正的教育</h2>
+
+  <p>从沃顿毕业后，Pincus 经历了一段表面上失败实则极其宝贵的职业旅程。首先他极不擅长面试——「我过度偏向诚实而不是取悦面试官」。他是全班唯一一个毕业时没有工作的人。</p>
+
+  <p>在 TCI（John Malone 的公司，当时美国最大的有线电视公司），他争取到了 15 分钟面试。当总裁问他为什么这里需要第二个 MBA 时，他拿出乔治·吉尔德关于信息高速公路的书，精准命中了他们的兴趣点——他们给了他一个写着「非有线业务」的纸箱，那就是他的工作。</p>
+
+  <p>但他很快在 John Malone 面前犯了两次职业生涯终结级的错误——建议用远低于的价格收购 AOL 而不是投资 Prodigy，以及建议做空另一家公司。Malone 的反应很简单：「我不需要一个乳臭未干的 MBA 来告诉我什么是好交易。」</p>
+
+  <p>暑假在贝恩时更精彩。他证明了一张由 Mitt Romney 绘制的经典图表（相对市场份额越高则利润率越高）在零食行业不成立，并在全体合伙人面前自豪地演示了这个发现。「就像去教堂然后说——我不相信上帝。看，我还能证明耶稣不存在。我应该当这个宗教的领袖。」听众纷纷离场。他是贝恩历史上仅有的两位在实习中途就被要求走人的实习生之一。</p>
+
+  <div class="inline-image">
+    <img src="https://images.animesdata.com/news/2026/06/08/6a268f180cc57.png" alt="Mark Pincus 在犹太教堂里独自坐着，在笔记本上写下问题">
+    <span class="caption">Mark Pincus 在犹太教堂里独自反思，开启了改变人生的实践</span>
+  </div>
+
+  <h2 class="section-heading">人生之书：一个改变命运的系统</h2>
+
+  <p>28 岁那年，Pincus 感觉自己已经过气了。他做了一系列错误的职业决策，前方没有出路。一个随机的机会，他走进了一座犹太教堂——「我不认识任何人，什么都不懂，只是一个可以坐下来思考的好地方。」</p>
+
+  <p>他开始在笔记本上写——为什么我的生活这么糟糕。最终，他聚焦在一个具体的行为上：抽烟。「我讨厌抽烟，衣服有烟味，我不想抽——但我戒不掉。这让我觉得生活有些失控。」他想：如果我能做成这一件事——就一件——来证明我在做出积极的改变，那就戒烟。</p>
+
+  <p>1994 年 10 月 19 日，他彻底戒了烟。此后一整年，每一天不抽烟都成了他可以感到自豪的事情。但这并非结束——他由此发展出了一套他称之为<strong>「人生之书」</strong>的年度实践。</p>
+
+  <p>「我会问自己：你未来的自己会感谢你现在做了哪件事？有没有什么小事和大事，我知道如果现在做了，未来的我会感激？」每年设定几个关键目标，写在纸上，并对数字诚实——比如「我打了多少电话」、「我做了多少次尝试」。这套系统让他从一个无法被雇佣的人，变成了自己命运的主宰。</p>
+
+  <blockquote>我开始在笔记本上写下为什么我的生活如此糟糕。然后我问自己：你未来的自己会感谢你现在做了哪件事？</blockquote>
+
+  <h2 class="section-heading">验证、更好、全新：Zynga 的创新框架</h2>
+
+  <p>这是 Pincus 在 Zynga 期间形成的核心方法论——「验证、更好、全新」（Proven, Better, New）。这个框架源于一个前提：「你的直觉几乎总是对的，但你的具体想法通常是错的。」太多产品和创始人失败，不是因为没有好创意，而是因为他们试图同时重新发明产品的每一个部分。</p>
+
+  <p>Pincus 以 Zynga Poker 为例拆解了这个框架。</p>
+
+  <p><strong>验证（Proven）：</strong>合法地复制已被市场验证的东西。「不要去动那些已经被证明有效的东西——你甚至可能不完全理解它为什么能行。你只需要原封不动地拿过来。」对于扑克游戏，被验证的部分就是扑克本身的规则和体验——他们直接复制了最好的真钱扑克游戏的牌桌外观、荷官、牌面和音效。</p>
+
+  <p><strong>更好（Better）：</strong>在每位用户都能认同的维度上超越现状。「更好通常是非常基本的东西——半价、免费、不需要下载。」Zynga Poker 就是完全不用下载，这在当时是巨大的优势。「每一次你让用户点击这里，就会流失一半人；每一次你要求下载这个，就会流失超过 90% 的人。」</p>
+
+  <p><strong>全新（New）：</strong>Pincus 最反直觉的见解。「所有新事物都会失败——直到它不失败为止。」这并非在反对创新，而是在说明正确的创新方式。你不能只尝试一个新想法——它的第一个版本几乎一定会失败。你必须在一个想法的许多变体中迭代。Zynga Poker 的「新」是在牌桌上放上真实朋友的照片——这是一个微小的改动，但创造了社交游戏的魔法。</p>
+
+  <p>要执行这个框架，你需要先成为「已存在事物的博士」。Pincus 分享了一个故事：Zynga 的一次产品路线图会议上，新上任的产品经理准备展示全新的扑克个人资料页面。他打断了对方——「给我看看你在个人资料方面的博士论文——告诉我移动端有史以来最好的游戏个人资料是什么，为什么它是最好的。」对方说不出话。他的回答是：「那你还没有资格改动个人资料页面。」</p>
+
+  <blockquote>所有新事物都会失败——直到它最终不失败为止。这并不意味着你不做新东西。它意味着你要尝试许多、许多每个新想法的变体，在更小的创新原子单位中寻找「新」。</blockquote>
+
+  <h2 class="section-heading">Zynga 的崛起、平台赌注与「独轮车」</h2>
+
+  <p>41 岁时，Pincus 创办了 Zynga。「我喜欢那些人们认为已经成熟甚至老旧的领域——就像 Google 出现之前的搜索。谷歌是第 56 个搜索引擎，但它让我们重新想象了搜索在生活中的角色。」</p>
+
+  <p>2007 年的全球视频游戏行业约 230 亿美元——成熟、无聊。但 Pincus 看到的是巨大的潜在需求——像他这样的人，其实是想玩游戏的，如果门槛足够低的话。Zynga 的核心洞见是：为主流大众做游戏，而不是为玩家。「给成年人足够的价值感——不是纯粹娱乐的空热量——让他们允许自己玩游戏。那份价值来自对用户要求极少，但在游戏中为你的社交网络增加一个维度。」</p>
+
+  <p>他们把 Facebook 作为游戏平台使用。Zynga 从一开始就现金流为正。但当被问及为什么持续融资时，Pincus 的回答很坦率：「Facebook 是整个历史上最不稳定的应用生态系统——没有之一。我感觉自己就像骑在一辆不断加高的独轮车上。每次加高一节，摔下来的代价就会更大。」</p>
+
+  <p>最惊险的时刻发生在 Facebook 在一个周五下午扔给他们一份协议，要求周一之前签——「不签的话周一就关掉你们。」当时 Zynga 占 Facebook 20% 的页面浏览量和 10% 的收入。他们签了。最终只有两家公司活了下来——Spotify 和 Zynga。</p>
+
+  <div class="inline-image">
+    <img src="https://images.animesdata.com/news/2026/06/08/6a268f1b27be3.png" alt="Zynga 创始人 Mark Pincus 讨论社交游戏策略">
+    <span class="caption">Zynga 创始人 Mark Pincus 讨论社交游戏策略</span>
+  </div>
+
+  <h2 class="section-heading">抄袭、创新与「失败机器」</h2>
+
+  <p>Pincus 对「抄袭」有着深思熟虑的立场。「抄袭听起来很糟糕——你不想抄别人的作业。但 Steve Jobs 有句名言：伟大的艺术家抄袭，大师则窃取。关键在于——你在对话中增加了什么新东西？」</p>
+
+  <p>这种思考催生了他称之为「失败机器」的激进加速理念。重返 Zynga 担任 CEO 时，他发现团队花了几百个工程日开发了一个快速游戏模式，但从未在漏斗顶端测试过。问题是：他们产品的核心用户是中年女性在带孩子和做家务的间隙——她们想要的是禅意的时刻，而不是肾上腺素。</p>
+
+  <p>他要求团队去看漏斗最顶端的数据。「多少玩家看到了这个功能？」团队说最多 5%，当前只有 1%。「99% 的玩家看了说——没门。然后你们还在建它？」最终他们意识到应该每周给玩家一个成就感——每周成就系统。这个功能最终带来了 1.8 亿美元的收入。</p>
+
+  <p>Pincus 提出用「最小想法状态」取代「最小可行产品」。「太多团队把时间花在构建能投放市场的最小可行产品上——我们没有那个时间了。我们需要在漏斗顶端就是一台失败机器。」最糟糕的反应不是「不」——而是「嗯」。「『不』至少你知道了。『嗯』是一个 5 到 7 分——含糊不清、不确定、可能还行。我们经不起这个。」</p>
+
+  <blockquote>我们需要一个失败机器在漏斗顶端。我们需要达到一个「最小想法状态」——用 vibe coding 快速验证。</blockquote>
+
+  <h2 class="section-heading">做决策、对团队负责与 Bezos 的一对一禁令</h2>
+
+  <p>对于创始人模式，Pincus 有着清晰的信念。「创始人模式就是我们的起点——你曾经是专家证人，距离答案最近却距离决策最远。现在你是创始人了。」他的核心观点是：你经历了那么多才走到这里，你有权相信自己的直觉，有权因为自己做决定而失败。</p>
+
+  <p>但并非总是如此。Zynga 上市后股价一度暴跌到 2 美元。彼时他有手握手协议收购 Supercell（4 亿美元现金），却在董事会遭到否决。他有投票控制权，律师告诉他技术上可以推翻董事会，但「实际上不行——你会被个人起诉」。Supercell 第二年就实现了 5 亿美元利润。「我那次本可以更勇敢——就像 Elon 会说：行，来告我吧。」</p>
+
+  <p>关于管理，Pincus 有一条从 Bing Gordon 那里学来的 Jeff Bezos 策略——<strong>不做一对一会议</strong>。「一对一制造公司政治。如果有人向我抱怨某人，我会把那个人叫过来——嗨，Shane 在投诉你，我觉得你应该上楼跟他聊聊。然后就离开。公司政治就此终结。每个人都知道——在我们这儿，没有政治，没有后台交易。」</p>
+
+  <p>他对团队成员还有一个「道德契约」：「如果你愿意攻下那座山头，我保证我同样卖力地为你所做的努力创造价值。我会和你并肩作战——不会让你当那个冲锋在前却被我辜负的工程师。」这条契约的另一面是：你有义务开除那些无效的人，不是因为他们坏，而是因为他们阻碍了真正努力的人。</p>
+
+  <blockquote>你欠自己一个机会去相信你的直觉。你欠自己一个因为自己而失败的机会。你有权犯错。作为创始人，你欠自己一个机会去掌控自己的命运。</blockquote>
+
+  <hr>
+
+  <div class="inline-image">
+    <img src="https://images.animesdata.com/news/2026/06/08/6a268f1e28d1e.png" alt="Mark Pincus 谈论创始人模式与创新法则">
+    <span class="caption">Mark Pincus 谈论创始人模式与创新法则</span>
+  </div>
+
+  <div class="closing-quote">
+    <p>成功对我来说不是一个时间点或某项成就。我希望能够花时间去打造那些让我上瘾、我觉得有意义、并且数百万其他人也觉得有意义的产品——同时被优秀、全力以赴的人所包围。</p>
+  </div>
+
+  <hr>
+
+  <div class="footer-note">
+    <p>原文：<a href="https://fs.blog/knowledge-project-podcast/mark-pincus/">Proven, Better, New: Mark Pincus on the Rules of Innovation</a>，来自 The Knowledge Project 播客，主持人为 Shane Parrish。</p>
+  </div>
+
+</div>
+</body>
+</html>
